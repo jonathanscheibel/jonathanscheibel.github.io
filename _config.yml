@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "email:"
 
 email: jonathan@safepentest.com.br
 #blog logo
-logo: "/assets/images/indice.png"
+logo: "/assets/images/df_logo.jpg"
 float_logo: true # true, false (default)
 
 # blog cover
