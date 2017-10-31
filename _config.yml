@@ -23,7 +23,7 @@ author_image: "/assets/images/21751965_10208171116114678_4956766131298360600_n.j
 paginate: 5
 
 url: "https://jonathanscheibel.github.io" # the base hostname & protocol for your site
-baseurl: ""
+baseurl: "https://jonathanscheibel.github.io"
 #used to display twitter cards
 twitter_handle: '@jonsmorais'
 
