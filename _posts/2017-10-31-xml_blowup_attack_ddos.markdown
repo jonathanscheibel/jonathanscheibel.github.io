@@ -2,7 +2,7 @@
 layout: post
 title:  "XML Blowup Attack - DDoS"
 date:   2017-10-31 23:54:24
-categories: Segurança da Informação
+categories: seguranca_informacao
 tags: segurança;ddos;python;xml;wordpress;
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
