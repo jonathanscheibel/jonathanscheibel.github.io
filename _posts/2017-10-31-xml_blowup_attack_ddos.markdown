@@ -5,10 +5,11 @@ date:   2017-10-31 23:54:24
 categories: seguranca_informacao
 tags: segurança;ddos;python;xml;wordpress;Drupal;XML;Blowup;Attack;
 image: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics.jpg
+image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nnuclear-explosion-radius-statistics-mobile.jpg
 ---
 #XML Blowup Attack - DDoS
 
-Zero day com utilização de DDoS.
+Exemplo de utilização DOoS 
 
 #Header Formats
 #Header1
