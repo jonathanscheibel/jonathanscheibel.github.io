@@ -74,3 +74,4 @@ Sistemas caem a todo momento, caso você tenha curiosidade visite o [DownDetecto
 -	https://www.hostinger.com.br/
 -	https://www.grupoinfocomercial.com/
 -	https://www.darknet.org.uk/
+-	http://www.checkupdown.com/
