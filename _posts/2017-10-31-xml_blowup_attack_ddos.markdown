@@ -7,14 +7,14 @@ tags: segurança;ddos;python;xml;wordpress;Drupal;XML;Blowup;Attack;
 image: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics.jpg
 image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics-mobile2.jpg
 ---
-#	<center>PRROVAVELMENTE SEU SITE NÃO ESTÁ SEGURO! </center>
+#	<center>PROVAVELMENTE SEU SITE NÃO ESTÁ SEGURO! </center>
 ##	Veja o motivo pelo qual você deveria se preocupar com seu conteúdo online.
 
 Venho falar sobre o ataque XML-RPC Blowup DDoS, para alguns, o nome é sugestivo, para outros pode ser uma novidade aterrorizante.
 
 Seu portal/site pode cair se você - ou administradora - não estiver atento(a) as correções mais recentes sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
 
-<img src="http://www.ifc0nfig.com/content/images/2016/05/6188025--1-.gif)" width="150" height="150" align="right">
+<img src="http://www.ifc0nfig.com/content/images/2016/05/6188025--1-.gif" height="150" align="right">
 
 ##	Efeitos
 - Inoperabilidade (Ficar fora do ar);
