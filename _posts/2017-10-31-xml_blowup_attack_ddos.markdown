@@ -36,7 +36,7 @@ O script foi escrito em python, totalmente livre e documentado, funciona atravé
 ## Erro 503
 >	O servidor Web (que faz o website funcionar) não consegue no momento lidar com o pedido de HTTP devido a uma sobrecarga temporária ou manutenção do servidor. (http://www.checkupdown.com/status/E503_pt.html)
 
-![ifconfig]("{{site.url}}{{site.baseurl}}")
+![ifconfig](https://jonathanscheibel.github.io/assets/article_images/2017-10-31-xml_blowup_attack_ddos/erro503.png)
 
 
 ##	Prevenção (Parte técnica)
