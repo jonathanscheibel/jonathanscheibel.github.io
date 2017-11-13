@@ -34,7 +34,9 @@ Baixe o script em meu repositório aqui no github: [Downlaod Script](https://git
 O script foi escrito em python, totalmente livre e documentado, funciona através de [threads](https://pt.wikipedia.org/wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)), no qual cada requisição envia para o serviço web uma enorme quantidade de informações, fazendo assim a sobrecarga do serviço, podendo afetar todos os serviços do sistema operacional. 
 
 ## Erro 503
->	O servidor Web (que faz o website funcionar) não consegue no momento lidar com o pedido de HTTP devido a uma sobrecarga temporária ou manutenção do servidor. (http://www.checkupdown.com/status/E503_pt.html)
+O servidor Web (que faz o website funcionar) não consegue no momento lidar com o pedido de HTTP devido a uma sobrecarga temporária ou manutenção do servidor. `http://www.checkupdown.com/status/E503_pt.html`
+
+`código inline < asda> aqui`
 
 ![Resposta do servidor após o ataque](https://jonathanscheibel.github.io/assets/article_images/2017-10-31-xml_blowup_attack_ddos/erro503.png)
 
@@ -51,10 +53,10 @@ O script foi escrito em python, totalmente livre e documentado, funciona atravé
 	Adicionar depois de encontrada "ABSPATH" adicione ao final da linha: 
 	add_filter('xmlrpc_enabled', '__return_false');
 3.	Adicionar no arquivo .htaccess (caso possua em seu serviço)
-	\<Files xmlrpc.php\>
-	Order Deny,Allow
-	Deny from all
-	\</Files\>
+	`<Files xmlrpc.php\>`
+	`Order Deny,Allow`
+	`Deny from all`
+	`</Files\>`
 	
 ###	Auxílio de frameworks 
 Algumas hospedagens mais maduras no mercado já estão tratando a vulnerabilidade, como por exemplo a [hostinger](https://www.hostinger.com). Procure sempre utilizar hospedagens confiáveis ou se tratando de VPS não esqueça de implementar regras de firewall para evitar [DDoS](https://pt.wikipedia.org/wiki/Ataque_de_nega%C3%A7%C3%A3o_de_servi%C3%A7o).	
