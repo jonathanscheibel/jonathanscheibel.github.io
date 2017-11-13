@@ -14,8 +14,6 @@ Venho falar sobre o ataque XML-RPC Blowup DDoS, para alguns, o nome é sugestivo
 
 Seu portal/site pode cair se você - ou administradora - não estiver atento(a) as correções mais recentes sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
 
-<img src="http://www.ifc0nfig.com/content/images/2016/05/6188025--1-.gif" height="150" align="right">
-
 ##	Efeitos
 - Inoperabilidade (Ficar fora do ar);
 - Vazamento de dados (Alguns bancos de dados ficarão vulneráveis devido ao ataque).
@@ -34,6 +32,12 @@ Para utilização do script apliquei rafatoração para melhoria do script nos s
 Baixe o script em meu repositório aqui no github: [Downlaod Script](https://github.com/jonathanscheibel/XML-Blowup-Attack-DoS/blob/master/cve-xxxx1.py "Todos direitos reservados").
  
 O script foi escrito em python, totalmente livre e documentado, funciona através de [threads](https://pt.wikipedia.org/wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)), no qual cada requisição envia para o serviço web uma enorme quantidade de informações, fazendo assim a sobrecarga do serviço, podendo afetar todos os serviços do sistema operacional. 
+
+## Erro 503
+>	O servidor Web (que faz o website funcionar) não consegue no momento lidar com o pedido de HTTP devido a uma sobrecarga temporária ou manutenção do servidor. (http://www.checkupdown.com/status/E503_pt.html)
+
+![ifconfig](http://www.ifc0nfig.com/content/images/2016/05/6188025--1-.gif)
+
 
 ##	Prevenção (Parte técnica)
 	Atenção: Caso não tenha experiência/confiança nos processos asseguir, 
@@ -68,5 +72,3 @@ Sistemas caem a todo momento, caso você tenha curiosidade visite o [DownDetecto
 -	https://www.hostinger.com.br/
 -	https://www.grupoinfocomercial.com/
 -	https://www.darknet.org.uk/
-
-![ifconfig](http://www.ifc0nfig.com/content/images/2016/05/6188025--1-.gif)
