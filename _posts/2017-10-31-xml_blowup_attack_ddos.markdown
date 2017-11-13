@@ -17,7 +17,8 @@ Seu portal/site pode cair se você - ou administradora - não estiver atento(a) 
 - Inoperabilidade (ficar fora do ar);
 - vazamento de dados (Alguns bancos de dados ficarão vulneráveis devido ao ataque).
 
->Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação (0 day) para sistemas que utilizam a interface de comunucação XML-RPC. Para utilização do script apliquei rafatoração para melhoria do script nos seguintes pontos: 
+>Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação (0 day) para sistemas que utilizam a interface de comunucação XML-RPC. 
+>Para utilização do script apliquei rafatoração para melhoria do script nos seguintes pontos: 
 
 ##Refatoração antes da publicação
 1. passagem de URL completa por parametro;
