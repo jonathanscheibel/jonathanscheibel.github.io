@@ -36,7 +36,7 @@ O script foi escrito em python, totalmente livre e documentado, funciona atravé
 ## Erro 503
 >	O servidor Web (que faz o website funcionar) não consegue no momento lidar com o pedido de HTTP devido a uma sobrecarga temporária ou manutenção do servidor. (http://www.checkupdown.com/status/E503_pt.html)
 
-![ifconfig](http://www.ifc0nfig.com/content/images/2016/05/6188025--1-.gif)
+![ifconfig]("{{site.url}}{{site.baseurl}}")
 
 
 ##	Prevenção (Parte técnica)
