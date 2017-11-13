@@ -7,7 +7,7 @@ tags: segurança;ddos;python;xml;wordpress;Drupal;XML;Blowup;Attack;
 image: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics.jpg
 image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics-mobile2.jpg
 ---
-#Provavelmente seu site não está seguro!
+#Provavelmente seu site não está seguro! Veja o motivo pelo qual você deveria se preocupar com seu conteúdo online. 
 
 Venho falar sobre o ataque XML-RPC Blowup DDoS, para alguns, o nome é sugestivo, para outros pode ser uma novidade aterrorizante.
 
@@ -35,3 +35,33 @@ Você pode baixar gratuitamente o script em meu repositório aqui no github: [Do
 
 #Tecnologia e utilização 
 >O script foi escrito em python, totalmente livre e documentado, funciona através de [threads](https://pt.wikipedia.org/wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)), no qual cada requisição envia para o serviço web uma enorme quantidade de informações, fazendo assim a sobrecarga do serviço, podendo afetar todos os serviços do sistema operacional. 
+
+#Prevenção (Parte técnica)
+##Possíveis soluções:
+1.	Bloquear acesso ao xmlrpc.php
+2.	Editar wp-config.php (Para casos de WordPress)
+	Adicionar depois de encontrada "ABSPATH" adicione ao final da linha: 
+	add_filter('xmlrpc_enabled', '__return_false');
+3.	Adicionar no arquivo .htaccess (caso possua em seu serviço)
+	# START XML RPC BLOCKING
+	<Files xmlrpc.php>
+	Order Deny,Allow
+	Deny from all
+	</Files>
+	# FINISH XML RPC BLOCKING
+	
+#Auxílio de frameworks 
+Algumas hospedagens mais maduras no mercado já estão tratando a vulnerabilidade, como por exemplo a [hostinger](https://www.hostinger.com). Procure sempre utilizar hospedagens confiáveis ou se tratando de VPS não esqueça de implementar regras de firewall para evitar [DDoS](https://pt.wikipedia.org/wiki/Ataque_de_nega%C3%A7%C3%A3o_de_servi%C3%A7o).	
+
+#Gestão de incidente 
+
+#Não se preocupe
+Sistemas caem a todo momento, caso você tenha curiosidade visite o [DownDetector](http://downdetector.com.br/) antigo "caiutudo" para conhecer as estatísticas de falhas dos sistemas mais conhecidos e utilizados do mundo.
+
+Fontes:
+http://downdetector.com.br/
+http://frameworkvulnerable.com 
+http://www.100security.com.br/
+https://www.hostinger.com.br/
+https://www.grupoinfocomercial.com/
+https://www.darknet.org.uk/
