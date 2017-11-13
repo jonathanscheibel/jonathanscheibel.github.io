@@ -15,11 +15,11 @@ Venho falar sobre o ataque XML-RPC Blowup DDoS, para alguns, o nome é sugestivo
 Seu portal/site pode cair se você - ou administradora - não estiver atento(a) as correções mais recentes sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
 
 ##	Efeitos
-- Inoperabilidade (ficar fora do ar);
-- vazamento de dados (Alguns bancos de dados ficarão vulneráveis devido ao ataque).
+- Inoperabilidade (Ficar fora do ar);
+- Vazamento de dados (Alguns bancos de dados ficarão vulneráveis devido ao ataque).
 
-Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação (0 day) para sistemas que utilizam a interface de comunucação XML-RPC. 
->>>>>>>>	<i>This is a Proof of Concept Exploit, Please use responsibly. Nir Goldshlager.</i>	 
+Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação (zero day) para sistemas que utilizam a interface de comunucação XML-RPC. 
+>>>>>>>>	This is a Proof of Concept Exploit, Please use responsibly. Nir Goldshlager.	 
 
 ##	Refatoração antes da publicação
 Para utilização do script apliquei rafatoração para melhoria do script nos seguintes em pontos que veremos asseguir.

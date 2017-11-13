@@ -6,12 +6,12 @@ gems:
 # Site settings
 title: "Jonathan Scheibel"
 description: > # this means to ignore newlines until "email:"
-   Um blog para quem admira a TI
+   Conheça alguns de meus estudos aqui!
 
 email: jonathan@safepentest.com.br
 #blog logo
 logo: "/assets/images/21751965_10208171116114678_4956766131298360600_n.jpg"
-float_logo: true # true, false (default)
+float_logo: false # true, false (default)
 
 # blog cover
 cover: "/assets/images/background_image.jpg"
