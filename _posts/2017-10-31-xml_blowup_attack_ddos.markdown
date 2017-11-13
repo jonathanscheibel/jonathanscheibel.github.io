@@ -30,7 +30,7 @@ Seu portal/site pode cair se você - ou administradora - não estiver atento(a) 
 - Outros
 
 #Links
-Você pode fazer o download do script gratuitamente em meu repositório: [Downlaod Script (https://github.com/jonathanscheibel/XML-Blowup-Attack-DoS/blob/master/cve-xxxx1.py "Todos direitos reservados").
+Você pode fazer o download do script gratuitamente em meu repositório: [Downlaod Script] (https://github.com/jonathanscheibel/XML-Blowup-Attack-DoS/blob/master/cve-xxxx1.py "Todos direitos reservados").
 
 #Tecnologia e utilização 
 >O script foi escrito em python, totalmente livre e documentado, funciona através de threads 
