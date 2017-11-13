@@ -10,6 +10,8 @@ image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosi
 #	PROVAVELMENTE SEU SITE NÃO ESTÁ SEGURO!
 ##	Veja o motivo pelo qual você deveria se preocupar com seu conteúdo online.
 
+ 
+
 Venho falar sobre o ataque XML-RPC Blowup DDoS, para alguns, o nome é sugestivo, para outros pode ser uma novidade aterrorizante.
 
 Seu portal/site pode cair se você - ou administradora - não estiver atento(a) as correções mais recentes sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
@@ -18,10 +20,12 @@ Seu portal/site pode cair se você - ou administradora - não estiver atento(a) 
 - Inoperabilidade (ficar fora do ar);
 - vazamento de dados (Alguns bancos de dados ficarão vulneráveis devido ao ataque).
 
->Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação (0 day) para sistemas que utilizam a interface de comunucação XML-RPC. 
->Para utilização do script apliquei rafatoração para melhoria do script nos seguintes pontos: 
+Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação (0 day) para sistemas que utilizam a interface de comunucação XML-RPC. 
+>>>>>>>>	<i>This is a Proof of Concept Exploit, Please use responsibly. Nir Goldshlager.</i>	 
 
 ##	Refatoração antes da publicação
+Para utilização do script apliquei rafatoração para melhoria do script nos seguintes em pontos que veremos asseguir.
+
 1. passagem de URL completa por parametro;
 2. passagem da última página por parametro (opcional); 
 3. mudança do web agente para mozilla mais recente.
@@ -64,8 +68,8 @@ Você - ou sua administradora do conteúdo online - pode utilizar ferramentas co
 Sistemas caem a todo momento, caso você tenha curiosidade visite o [DownDetector](http://downdetector.com.br/) antigo "caiutudo" para conhecer as estatísticas de falhas dos sistemas mais conhecidos e utilizados do mundo.
 
 ###	Fontes:
---	http://downdetector.com.br/
---		http://frameworkvulnerable.com 
+-	http://downdetector.com.br/
+*	http://frameworkvulnerable.com 
 -	http://www.100security.com.br/
 -	https://www.hostinger.com.br/
 -	https://www.grupoinfocomercial.com/
