@@ -7,7 +7,7 @@ tags: segurança;ddos;python;xml;wordpress;Drupal;XML;Blowup;Attack;
 image: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics.jpg
 image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics-mobile2.jpg
 ---
-#	PROVAVELMENTE SEU SITE NÃO ESTÁ SEGURO!
+#	<center>PROVAVELMENTE SEU SITE NÃO ESTÁ SEGURO! </center></p>
 ##	Veja o motivo pelo qual você deveria se preocupar com seu conteúdo online.
 
 Venho falar sobre o ataque XML-RPC Blowup DDoS, para alguns, o nome é sugestivo, para outros pode ser uma novidade aterrorizante.
