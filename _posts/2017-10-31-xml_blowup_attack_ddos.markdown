@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "XML Blowup Attack DDoS - Seu site pode cair a qualquer momento!"
+title:  "Seu site pode cair a qualquer momento!"
 date:   2017-11-13 10:54:24
 categories: seguranca_informacao
 tags: segurança;ddos;python;xml;wordpress;Drupal;XML;Blowup;Attack;
@@ -8,6 +8,8 @@ image: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosio
 image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics-mobile2.jpg
 ---
 #Provavelmente seu site não está seguro!
+
+Venho falar sobre o ataque XML-RPC Blowup DDoS, para alguns, o nome é sugestivo, para outros pode ser uma novidade aterrorizante.
 
 Seu portal/site pode cair se você - ou administradora - não estiver atento(a) as correções mais recentes sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
 
@@ -18,9 +20,9 @@ Seu portal/site pode cair se você - ou administradora - não estiver atento(a) 
 >Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação (0 day) para sistemas que utilizam a interface de comunucação XML-RPC. Para utilização do script apliquei rafatoração para melhoria do script nos seguintes pontos: 
 
 ##Refatoração antes da publicação
-1. passagem de URL por parametro;
+1. passagem de URL completa por parametro;
 2. passagem da última página por parametro (opcional); 
-3. mudança do agente para mozilla mais recente.
+3. mudança do web agente para mozilla mais recente.
 
 ##Sistemas vulneráveis
 - WordPress
@@ -28,10 +30,10 @@ Seu portal/site pode cair se você - ou administradora - não estiver atento(a) 
 - Outros
 
 #Links
-This is an [example link](http://example.com/ "With a Title").
+Você pode fazer o download do script gratuitamente em meu repositório: [Downlaod Script (https://github.com/jonathanscheibel/XML-Blowup-Attack-DoS/blob/master/cve-xxxx1.py "Todos direitos reservados").
 
 #Tecnologia e utilização 
->Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+>O script foi escrito em python, totalmente livre e documentado, funciona através de threads 
 >
 > - Apple
 > - Banana
