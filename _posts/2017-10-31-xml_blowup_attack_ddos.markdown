@@ -7,7 +7,9 @@ tags: segurança;ddos;python;xml;wordpress;Drupal;XML;Blowup;Attack;
 image: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics.jpg
 image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics-mobile2.jpg
 ---
-	#TESTE Provavelmente seu site não está seguro! Veja o motivo pelo qual você deveria se preocupar com seu conteúdo online. 
+#	PROVAVELMENTE SEU SITE NÃO ESTÁ SEGURO!
+#	Veja o motivo pelo qual você deveria se preocupar com seu conteúdo online.
+	 
 
 Venho falar sobre o ataque XML-RPC Blowup DDoS, para alguns, o nome é sugestivo, para outros pode ser uma novidade aterrorizante.
 
@@ -37,6 +39,11 @@ Você pode baixar gratuitamente o script em meu repositório aqui no github: [Do
 >O script foi escrito em python, totalmente livre e documentado, funciona através de [threads](https://pt.wikipedia.org/wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)), no qual cada requisição envia para o serviço web uma enorme quantidade de informações, fazendo assim a sobrecarga do serviço, podendo afetar todos os serviços do sistema operacional. 
 
 #Prevenção (Parte técnica)
+	Atenção: Caso não tenha experiência/confiança nos processos asseguir, 
+	não prociga com as possiveis soluções e procure o administrador 
+	do seu portal/conteúdo online para as demais prevenções, pois 
+	quaisquer alterações incorretas poderá causar problemas irreverssíveis.  
+
 ##Possíveis soluções:
 1.	Bloquear acesso ao xmlrpc.php
 2.	Editar wp-config.php (Para casos de WordPress)
