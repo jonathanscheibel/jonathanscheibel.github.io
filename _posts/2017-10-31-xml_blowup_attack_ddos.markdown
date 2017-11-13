@@ -54,6 +54,7 @@ Você pode baixar gratuitamente o script em meu repositório aqui no github: [Do
 Algumas hospedagens mais maduras no mercado já estão tratando a vulnerabilidade, como por exemplo a [hostinger](https://www.hostinger.com). Procure sempre utilizar hospedagens confiáveis ou se tratando de VPS não esqueça de implementar regras de firewall para evitar [DDoS](https://pt.wikipedia.org/wiki/Ataque_de_nega%C3%A7%C3%A3o_de_servi%C3%A7o).	
 
 #Gestão de incidente 
+Você - ou sua administradora do conteúdo online - pode utilizar ferramentas como por exemplo [maltrail] (https://github.com/stamparm/maltrail) para gerir a segurança, controlando os acessos maliciosos com mais eficácia em seu serviço online.
 
 #Não se preocupe
 Sistemas caem a todo momento, caso você tenha curiosidade visite o [DownDetector](http://downdetector.com.br/) antigo "caiutudo" para conhecer as estatísticas de falhas dos sistemas mais conhecidos e utilizados do mundo.
