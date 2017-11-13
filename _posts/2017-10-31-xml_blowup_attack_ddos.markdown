@@ -30,11 +30,7 @@ Seu portal/site pode cair se você - ou administradora - não estiver atento(a) 
 - Outros
 
 #Links
-Você pode fazer o download do script gratuitamente em meu repositório: [Downlaod Script] (https://github.com/jonathanscheibel/XML-Blowup-Attack-DoS/blob/master/cve-xxxx1.py "Todos direitos reservados").
+Você pode baixar gratuitamente o script em meu repositório aqui no github: [Downlaod Script](https://github.com/jonathanscheibel/XML-Blowup-Attack-DoS/blob/master/cve-xxxx1.py "Todos direitos reservados").
 
 #Tecnologia e utilização 
->O script foi escrito em python, totalmente livre e documentado, funciona através de threads 
->
-> - Apple
-> - Banana
-> - Plum
+>O script foi escrito em python, totalmente livre e documentado, funciona através de [threads](https://pt.wikipedia.org/wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)), no qual cada requisição envia para o serviço web uma enorme quantidade de informações, fazendo assim a sobrecarga do serviço, podendo afetar todos os serviços do sistema operacional. 
