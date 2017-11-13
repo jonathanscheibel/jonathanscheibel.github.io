@@ -14,7 +14,7 @@ Venho falar sobre o ataque XML-RPC Blowup DDoS, para alguns, o nome é sugestivo
 
 Seu portal/site pode cair se você - ou administradora - não estiver atento(a) as correções mais recentes sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
 
-<img src="ihttp://www.ifc0nfig.com/content/images/2016/05/6188025--1-.gif)" width="150" height="150" align="right">
+<img src="http://www.ifc0nfig.com/content/images/2016/05/6188025--1-.gif)" width="150" height="150" align="right">
 
 ##	Efeitos
 - Inoperabilidade (Ficar fora do ar);
