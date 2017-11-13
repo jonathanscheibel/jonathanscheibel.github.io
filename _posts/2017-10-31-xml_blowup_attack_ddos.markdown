@@ -45,10 +45,10 @@ O script foi escrito em python, totalmente livre e documentado, funciona atravé
 	Adicionar depois de encontrada "ABSPATH" adicione ao final da linha: 
 	add_filter('xmlrpc_enabled', '__return_false');
 3.	Adicionar no arquivo .htaccess (caso possua em seu serviço)
-	<Files xmlrpc.php>
+	\<Files xmlrpc.php\>
 	Order Deny,Allow
 	Deny from all
-	</Files>
+	\</Files\>
 	
 ###	Auxílio de frameworks 
 Algumas hospedagens mais maduras no mercado já estão tratando a vulnerabilidade, como por exemplo a [hostinger](https://www.hostinger.com). Procure sempre utilizar hospedagens confiáveis ou se tratando de VPS não esqueça de implementar regras de firewall para evitar [DDoS](https://pt.wikipedia.org/wiki/Ataque_de_nega%C3%A7%C3%A3o_de_servi%C3%A7o).	
