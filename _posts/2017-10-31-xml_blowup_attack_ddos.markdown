@@ -10,8 +10,6 @@ image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosi
 #	PROVAVELMENTE SEU SITE NÃO ESTÁ SEGURO!
 ##	Veja o motivo pelo qual você deveria se preocupar com seu conteúdo online.
 
- 
-
 Venho falar sobre o ataque XML-RPC Blowup DDoS, para alguns, o nome é sugestivo, para outros pode ser uma novidade aterrorizante.
 
 Seu portal/site pode cair se você - ou administradora - não estiver atento(a) as correções mais recentes sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
@@ -30,16 +28,10 @@ Para utilização do script apliquei rafatoração para melhoria do script nos s
 2. passagem da última página por parametro (opcional); 
 3. mudança do web agente para mozilla mais recente.
 
-##	Sistemas vulneráveis
-- WordPress
-- Drupal
-- Outros
-
-##	Links
+##	Tecnologia e utilização
 Baixe o script em meu repositório aqui no github: [Downlaod Script](https://github.com/jonathanscheibel/XML-Blowup-Attack-DoS/blob/master/cve-xxxx1.py "Todos direitos reservados").
-
-##	Tecnologia e utilização 
->O script foi escrito em python, totalmente livre e documentado, funciona através de [threads](https://pt.wikipedia.org/wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)), no qual cada requisição envia para o serviço web uma enorme quantidade de informações, fazendo assim a sobrecarga do serviço, podendo afetar todos os serviços do sistema operacional. 
+ 
+O script foi escrito em python, totalmente livre e documentado, funciona através de [threads](https://pt.wikipedia.org/wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o), no qual cada requisição envia para o serviço web uma enorme quantidade de informações, fazendo assim a sobrecarga do serviço, podendo afetar todos os serviços do sistema operacional. 
 
 ##	Prevenção (Parte técnica)
 	Atenção: Caso não tenha experiência/confiança nos processos asseguir, 
@@ -62,7 +54,7 @@ Baixe o script em meu repositório aqui no github: [Downlaod Script](https://git
 Algumas hospedagens mais maduras no mercado já estão tratando a vulnerabilidade, como por exemplo a [hostinger](https://www.hostinger.com). Procure sempre utilizar hospedagens confiáveis ou se tratando de VPS não esqueça de implementar regras de firewall para evitar [DDoS](https://pt.wikipedia.org/wiki/Ataque_de_nega%C3%A7%C3%A3o_de_servi%C3%A7o).	
 
 ##	Gestão de incidente 
-Você - ou sua administradora do conteúdo online - pode utilizar ferramentas como por exemplo [maltrail] (https://github.com/stamparm/maltrail) para gerir a segurança, controlando os acessos maliciosos com mais eficácia em seu serviço online.
+Você - ou sua administradora do conteúdo online - pode utilizar ferramentas como por exemplo [maltrail](https://github.com/stamparm/maltrail) para gerir a segurança, controlando os acessos maliciosos com mais eficácia em seu serviço online.
 
 ##	Não se preocupe
 Sistemas caem a todo momento, caso você tenha curiosidade visite o [DownDetector](http://downdetector.com.br/) antigo "caiutudo" para conhecer as estatísticas de falhas dos sistemas mais conhecidos e utilizados do mundo.
