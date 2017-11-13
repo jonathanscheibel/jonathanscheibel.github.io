@@ -18,14 +18,14 @@ Seu portal/site pode cair se você - ou administradora - não estiver atento(a) 
 - Inoperabilidade (Ficar fora do ar);
 - Vazamento de dados (Alguns bancos de dados ficarão vulneráveis devido ao ataque).
 
-Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação (zero day) para sistemas que utilizam a interface de comunucação XML-RPC. 
+Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação (zero day) para sistemas que utilizam a interface de comunicação XML-RPC. 
 >>>>>>>>	This is a Proof of Concept Exploit, Please use responsibly. Nir Goldshlager.	 
 
 ##	Refatoração antes da publicação
-Para utilização do script apliquei rafatoração para melhoria do script nos seguintes em pontos que veremos asseguir.
+Para utilização do script apliquei rafatoração para melhoria do script nos seguintes em pontos que veremos a seguir.
 
-1. passagem de URL completa por parametro;
-2. passagem da última página por parametro (opcional); 
+1. passagem de URL completa por parâmetro;
+2. passagem da última página por parâmetro (opcional); 
 3. mudança do web agente para mozilla mais recente.
 
 ##	Tecnologia e utilização
@@ -36,16 +36,14 @@ O script foi escrito em python, totalmente livre e documentado, funciona atravé
 ## Erro 503
 O servidor Web (que faz o website funcionar) não consegue no momento lidar com o pedido de HTTP devido a uma sobrecarga temporária ou manutenção do servidor. `http://www.checkupdown.com/status/E503_pt.html`
 
-`código inline < asda> aqui`
-
 ![Resposta do servidor após o ataque](https://jonathanscheibel.github.io/assets/article_images/2017-10-31-xml_blowup_attack_ddos/erro503.png)
 
 
 ##	Prevenção (Parte técnica)
-	Atenção: Caso não tenha experiência/confiança nos processos asseguir, 
-	não prociga com as possiveis soluções e procure o administrador 
+	Atenção: Caso não tenha experiência/confiança nos processos a seguir, 
+	não prossiga com as possíveis soluções e procure o administrador 
 	do seu portal/conteúdo online para as demais prevenções, pois 
-	quaisquer alterações incorretas poderá causar problemas irreverssíveis.  
+	quaisquer alterações incorretas poderá causar problemas irreversíveis.  
 
 ###	Possíveis soluções:
 1.	Bloquear acesso ao xmlrpc.php
