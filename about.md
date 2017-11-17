@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre mim:
-permalink: /about/
+permalink: /sobre/
 ---
 
 Atuante na área de TI desde quando me conheço por gente, minha carreira profissional não poderia ser diferente.
