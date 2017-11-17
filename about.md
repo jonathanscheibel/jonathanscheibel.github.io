@@ -10,7 +10,7 @@ Nascido e criado no Rio de Janeiro - RJ, hoje resido e trabalho em (São João d
 Você pode me conhecer profissionalmente muito melhor pelo **LinkedIn**:
 [https://www.linkedin.com/in/jonathan-scheibel/](https://www.linkedin.com/in/jonathan-scheibel/ 
 
-Se você achou algum trabalho meu interessante, seria muito interessante eu saber: [jonathansmorais@gmail.com](mailto:jonathansmorais@gmail.com)
+Se você achou algum de meus trabalhos interessantes, seria muito bom saber, meu email é: [jonathansmorais@gmail.com](mailto:jonathansmorais@gmail.com)
 
 Por fim, eu agradeço muito que tenha tido curiosidade e espero que este blog seja útil a você de alguma forma.
 
