@@ -6,7 +6,7 @@ gems:
 # Site settings
 title: "Jonathan Scheibel"
 description: > # this means to ignore newlines until "email:"
-   Conheça alguns de meus estudos aqui!
+   Conheça alguns de meus estudos!
 
 email: jonathan@safepentest.com.br
 #blog logo
