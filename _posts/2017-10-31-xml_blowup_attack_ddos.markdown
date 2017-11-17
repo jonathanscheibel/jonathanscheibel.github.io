@@ -7,7 +7,7 @@ tags: segurança;ddos;python;xml;wordpress;Drupal;XML;Blowup;Attack;
 image: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics.jpg
 image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics-mobile2.jpg
 ---
-#	<center>PROVAVELMENTE SEUS WEB SERVICES NÃO ESTAM PREPARADOS! </center>
+#	<center>PROVAVELMENTE SEUS WEB SERVICES NÃO ESTÃO PREPARADOS! </center>
 ##	Veja o motivo pelo qual você deveria se preocupar com o XML-RPC Blowup
 
 > 
