@@ -13,8 +13,8 @@ image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosi
 > 
 
 Venho falar sobre o **ataque XML-RPC Blowup DDoS**, para alguns, o nome é sugestivo, para outros pode ser uma novidade aterrorizante.
-
-Imagine um de seus serviços - ou todos eles - saindo do ar de uma hora para outra! Por isso é importante estar sempre atento as correções mais recentes. Venho falar sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
+Imagine um de seus serviços - ou todos eles - saindo do ar de uma hora para outra! É ruim até pensar não é mesmo? 
+Venho falar sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
 
 ##	1. Efeitos
 - Inoperabilidade;
