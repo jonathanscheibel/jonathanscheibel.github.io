@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sobre mim:
-permalink: /sobre/
+title: Sobre mim
+permalink: /sobre
 ---
 
 Atuante na área de TI desde quando me conheço por gente, minha carreira profissional não poderia ser diferente.
@@ -14,4 +14,4 @@ Se você achou algum de meus trabalhos interessantes, **seria muito bom saber**,
 
 Por fim, eu agradeço muito que tenha tido curiosidade pela visita aqui e espero que este blog seja útil a você de alguma forma.
 
-**Até breve!**
+**Até breve!!**
