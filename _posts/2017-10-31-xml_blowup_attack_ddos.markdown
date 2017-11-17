@@ -7,20 +7,20 @@ tags: segurança;ddos;python;xml;wordpress;Drupal;XML;Blowup;Attack;
 image: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics.jpg
 image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics-mobile2.jpg
 ---
-#	<center>PROVAVELMENTE SEUS SERVIÇOS NÃO ESTAM PREPARADOS! </center>
+#	<center>PROVAVELMENTE SEUS WEB SERVICES NÃO ESTAM PREPARADOS! </center>
 ##	Veja o motivo pelo qual você deveria se preocupar com o XML-RPC Blowup
 
 > 
 
 Venho falar sobre o **ataque XML-RPC Blowup DDoS**, para alguns, o nome é sugestivo, para outros pode ser uma novidade aterrorizante.
 
-Seu portal/site pode cair se você - ou administradora - não estiver atento(a) as correções mais recentes sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
+Imagine um de seus serviços - ou todos eles - saindo do ar de uma hora para outra! Por isso é importante estar sempre atento as correções mais recentes. Venho falar sobre XML-Blowup. Com a técnica descrita abaixo é possível "derrubar" dentro de alguns segundos sites inteiros dependendo da arquitetura utilizada. 
 
 ##	1. Efeitos
-- Inoperabilidade (Ficar fora do ar);
+- Inoperabilidade;
 - Vazamento de dados (Alguns bancos de dados ficarão vulneráveis devido ao ataque).
 
-Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação (zero day) para sistemas que utilizam a interface de comunicação XML-RPC. 
+Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [salesforce.com](http://salesforce.com  "Salesforce.com ") sua identificação zero day para sistemas que utilizam a interface de comunicação XML-RPC. 
 >>>>>>>>	This is a Proof of Concept Exploit, Please use responsibly. Nir Goldshlager.	 
 
 ##	2. Refatoração antes da publicação
@@ -36,7 +36,7 @@ Baixe o script em meu repositório aqui no github: [Downlaod Script](https://git
 O script foi escrito em python, totalmente livre e documentado, funciona através de [threads](https://pt.wikipedia.org/wiki/Thread_(ci%C3%AAncia_da_computa%C3%A7%C3%A3o)), no qual cada requisição envia para o serviço web uma enorme quantidade de informações, fazendo assim a sobrecarga do serviço, podendo afetar todos os serviços do sistema operacional. 
 
 ## 4. Erro 503
-O servidor Web (que faz o website funcionar) não consegue no momento lidar com o pedido de HTTP devido a uma sobrecarga temporária ou manutenção do servidor. `http://www.checkupdown.com/status/E503_pt.html`
+O servidor Web não consegue no momento lidar com o pedido de HTTP devido a uma sobrecarga temporária ou manutenção do servidor. `http://www.checkupdown.com/status/E503_pt.html`
 
 ![Resposta do servidor após o ataque](https://jonathanscheibel.github.io/assets/article_images/2017-10-31-xml_blowup_attack_ddos/erro503.png)
 
@@ -59,10 +59,10 @@ O servidor Web (que faz o website funcionar) não consegue no momento lidar com 
 	`</Files\>`
 	
 ###	5.2 Auxílio de frameworks 
-Algumas hospedagens mais maduras no mercado já estão tratando a vulnerabilidade, como por exemplo a [hostinger](https://www.hostinger.com). Procure sempre utilizar hospedagens confiáveis ou se tratando de VPS não esqueça de implementar regras de firewall para evitar [DDoS](https://pt.wikipedia.org/wiki/Ataque_de_nega%C3%A7%C3%A3o_de_servi%C3%A7o).	
+Hospedagens mais maduras no mercado já estão tratando a vulnerabilidade, como por exemplo a [hostinger](https://www.hostinger.com). Procure sempre utilizar hospedagens confiáveis ou se tratando de VPS não esqueça de implementar regras de firewall para evitar [DDoS](https://pt.wikipedia.org/wiki/Ataque_de_nega%C3%A7%C3%A3o_de_servi%C3%A7o).	
 
 ##	6. Gestão de incidente 
-Você - ou sua administradora do conteúdo online - pode utilizar ferramentas como por exemplo [maltrail](https://github.com/stamparm/maltrail) para gerir a segurança, controlando os acessos maliciosos com mais eficácia em seu serviço online.
+Você pode utilizar também ferramentas como por exemplo o [maltrail](https://github.com/stamparm/maltrail) para gerir a segurança, controlando os acessos maliciosos com mais eficácia em seu serviço online.
 
 ##	7. Não se preocupe
 Sistemas caem a todo momento, caso você tenha curiosidade visite o [DownDetector](http://downdetector.com.br/) antigo "caiutudo" para conhecer as estatísticas de falhas dos sistemas mais conhecidos e utilizados do mundo.
