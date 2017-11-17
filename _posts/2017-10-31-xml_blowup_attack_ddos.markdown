@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Seu site pode cair a qualquer momento!"
+title:  "XML-RPC Blowup DDoS - O ataque que causa dor de cabeça!"
 date:   2017-11-13 10:54:24
 categories: seguranca_informacao
 tags: segurança;ddos;python;xml;wordpress;Drupal;XML;Blowup;Attack;
 image: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics.jpg
 image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics-mobile2.jpg
 ---
-#	<center>PROVAVELMENTE SEU SITE NÃO ESTÁ SEGURO! </center>
-##	Veja o motivo pelo qual você deveria se preocupar com seu conteúdo online.
+#	<center>PROVAVELMENTE SEUS SERVIÇOS NÃO ESTAM PREPARADOS! </center>
+##	Veja o motivo pelo qual você deveria se preocupar com o XML-RPC Blowup
 
 > 
 
@@ -67,7 +67,7 @@ Você - ou sua administradora do conteúdo online - pode utilizar ferramentas co
 ##	7. Não se preocupe
 Sistemas caem a todo momento, caso você tenha curiosidade visite o [DownDetector](http://downdetector.com.br/) antigo "caiutudo" para conhecer as estatísticas de falhas dos sistemas mais conhecidos e utilizados do mundo.
 
-###	Fontes:
+##### Fontes:
 -	[http://downdetector.com.br/](http://downdetector.com.br/)
 -	[http://frameworkvulnerable.com/](http://frameworkvulnerable.com/) 
 -	[http://www.100security.com.br/](http://www.100security.com.br/)
