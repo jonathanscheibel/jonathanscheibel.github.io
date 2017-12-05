@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pre-Requisito! Anonimato antes de qualquer trabalho!"
+title:  "XML-RPC Blowup DDoS - O ataque que causa dor de cabeça!"
 date:   2017-11-27 12:50:12
 categories: seguranca_informacao
 tags: segurança;anonimato;vpn;proxy;
