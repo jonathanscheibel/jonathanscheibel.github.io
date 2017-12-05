@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "XML-RPC Blowup DDoS - O ataque que causa dor de cabeça!"
-date:   2017-11-13 10:54:24
+title:  "Pre-Requisito! Anonimato antes de qualquer trabalho!"
+date:   2017-11-27 12:50:12
 categories: seguranca_informacao
-tags: segurança;ddos;python;xml;wordpress;Drupal;XML;Blowup;Attack;
+tags: segurança;anonimato;vpn;proxy;
 image: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics.jpg
 image2: /assets/article_images/2017-10-31-xml_blowup_attack_ddos/nuclear-explosion-radius-statistics-mobile2.jpg
 ---
