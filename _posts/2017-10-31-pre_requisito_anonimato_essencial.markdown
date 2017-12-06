@@ -10,4 +10,7 @@ image2: /assets/article_images/2017-10-31-pre_requisito_anonimato_essencial/imag
 #	<center>MELHORIA PARA ANONIMATO NUNCA É DE MAIS, NÉ?</center>
 ##	Adicione este método simples para auxiliar seu anonimato em seus trabalhos e/ou estudos.
 
-> 
+>
+
+
+https://github.com/jonathanscheibel/preventaddress/blob/master/preventaddress.sh 
