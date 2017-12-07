@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Melhore o anonimato adicionando este método simples em seu workstation"
+title:  "PREVENTADDRES - Gestão de incidentes de exposição de endereço!"
 date:   2017-12-07 01:03:25
 categories: seguranca_informacao
 tags: segurança;anonimato;vpn;proxy;
