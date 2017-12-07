@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Melhore o anonimato adicionando este método simples em seu workstation"
-date:   2017-11-27 12:50:12
+date:   2017-12-07 01:03:25
 categories: seguranca_informacao
 tags: segurança;anonimato;vpn;proxy;
 image: /assets/article_images/2017-10-31-pre_requisito_anonimato_essencial/imagePostAnonimato.jpg
