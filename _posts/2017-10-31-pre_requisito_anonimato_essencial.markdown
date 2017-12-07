@@ -11,7 +11,7 @@ image2: /assets/article_images/2017-10-31-pre_requisito_anonimato_essencial/imag
 ##	Adicione este método simples para auxiliar seu anonimato em seus trabalhos e/ou estudos.
 
 
-# Sobre o Scrip:
+# Sobre o Script:
 [Download](https://github.com/jonathanscheibel/preventaddress/blob/master/preventaddress.sh) - Inclua este script no seu ambiente de trabalho quando existir a necessidade de anonimato. Trabalhando em runtime, quando o script detecta a exposição de seu endereço IP, **o mesmo derruba o dispositivo de rede previamente informado**. Esta técnica é bastante útil em trabalhos tradicionais e também quando você não está na frente de seu terminal o tempo todo e precisa desconectar-se de seu trabalho online de maneira automática. Boa utilização para os casos que ocorra algum problema com seu [proxy](https://pt.wikipedia.org/wiki/Proxy), [vpn](https://pt.wikipedia.org/wiki/Virtual_private_network) ou [tor](https://pt.wikipedia.org/wiki/Tor_(rede_de_anonimato)) por exemplo. 
 
 # Exibição de Ajuda:
