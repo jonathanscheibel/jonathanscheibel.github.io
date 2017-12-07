@@ -12,7 +12,7 @@ image2: /assets/article_images/2017-10-31-pre_requisito_anonimato_essencial/imag
 
 
 # Sobre o Scrip:
-[Download](https://github.com/jonathanscheibel/preventaddress/blob/master/preventaddress.sh) - Inclua este script no seu ambiente de trabalho quando existir a necessidade de anonimato. Ele trabalha em runtime, quando o script detecta que seu endereço IP não está correto, **ele derruba o dispositivo de rede previamente informado**. Esta técnica é bastante útil quando você não está de frente da tela de seu terminal e precisa parar sua conexão com o trabalho online de maneira automática caso ocorra algum problema com seu [proxy](https://pt.wikipedia.org/wiki/Proxy), [vpn](https://pt.wikipedia.org/wiki/Virtual_private_network) ou [tor](https://pt.wikipedia.org/wiki/Tor_(rede_de_anonimato)). 
+[Download](https://github.com/jonathanscheibel/preventaddress/blob/master/preventaddress.sh) - Inclua este script no seu ambiente de trabalho quando existir a necessidade de anonimato.Trabalhando em runtime, quando o script detecta a exposição de seu endereço IP, **o mesmo derruba o dispositivo de rede previamente informado**. Esta técnica é bastante útil em trabalhos tradicionais e também quando você não está na frente de seu terminal o tempo todo e precisa desconectar-se de seu trabalho online de maneira automática. Muito útil para os casos que ocorra algum problema com seu [proxy](https://pt.wikipedia.org/wiki/Proxy), [vpn](https://pt.wikipedia.org/wiki/Virtual_private_network) ou [tor](https://pt.wikipedia.org/wiki/Tor_(rede_de_anonimato)) por exemplo. 
 
 # Exibição de Ajuda:
 	./preventaddress.sh 
