@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PREVENTADDRES - Gestão de incidentes para exposição de endereço!"
+title:  "PREVENTADDRESS - Gestão de incidentes para exposição de endereço!"
 date:   2017-12-07 01:03:25
 categories: seguranca_informacao
 tags: segurança;anonimato;vpn;proxy;
