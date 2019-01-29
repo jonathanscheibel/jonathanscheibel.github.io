@@ -24,7 +24,7 @@ Reportado ainda como CVE-XXXXX o autor Nir Goldshlager publicou através de [sal
 >>>>>>>>	This is a Proof of Concept Exploit, Please use responsibly. Nir Goldshlager.	 
 
 ##	2. Refatoração antes da publicação
-Para utilização do script apliquei rafatoração para melhoria do script nos seguintes em pontos que veremos a seguir.
+Para utilização do script apliquei rafatoração para melhoria do script nos seguintes pontos que veremos a seguir.
 
 1. passagem de URL completa por parâmetro;
 2. passagem da última página por parâmetro (opcional); 
@@ -45,7 +45,7 @@ O servidor Web não consegue no momento lidar com o pedido de HTTP devido a uma 
 	Atenção: Caso não tenha experiência/confiança nos processos a seguir, 
 	não prossiga com as possíveis soluções e procure o administrador 
 	do seu portal/conteúdo online para as demais prevenções, pois 
-	quaisquer alterações incorretas poderá causar problemas irreversíveis.  
+	quaisquer alterações incorretas poderão causar problemas irreversíveis.  
 
 ###	5.1 Possíveis soluções:
 1.	Bloquear acesso ao xmlrpc.php
