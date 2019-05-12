@@ -15,3 +15,6 @@ Se você achou algum de meus trabalhos interessantes, **seria muito bom saber**,
 Por fim, eu agradeço muito que tenha tido curiosidade pela visita aqui e espero que este blog seja útil a você de alguma forma.
 
 **Até breve!!**
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="horizontal" data-theme="light" data-vanity="jonathan-scheibel"><a class="LI-simple-link" href='https://br.linkedin.com/in/jonathan-scheibel?trk=profile-badge'>Jonathan Scheibel</a></div>
+
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
