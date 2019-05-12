@@ -36,25 +36,33 @@ google_analytics: UA-108830795-1
 social:
   - icon: twitter
     url: https://twitter.com/jonsmorais
-    desc: Follow me on twitter
+    desc: Me siga no twitter
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
 
   - icon: facebook
     url: https://www.facebook.com/ScheibelJonathan
-    desc: Connect with me facebook
+    desc: Perfil do facebook
     share_url: https://www.facebook.com/sharer.php
     share_title: ?t=
     share_link: "&amp;u="
 
   - icon: github
     url: https://github.com/jonathanscheibel
-    desc: Fork em github
+    desc: Me siga no github
     share_url:
     share_title:
     share_link:
 
+
+  - icon: linkedin
+    url: https://www.linkedin.com/in/jonathan-scheibel
+    desc: Qualificaoes gerais no LinkedIn
+    share_url:
+    share_title:
+    share_link:
+    
 #  - icon:	google-plus
 #    url:	https://google.com/???
 #    desc:	Add me on google+
