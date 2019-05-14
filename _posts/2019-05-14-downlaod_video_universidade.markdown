@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Vazamento de aulas da maior universidade do país."
+title:  "Vazamento de aulas da maior universidade privada do país."
 date:   2019-05-14 23:50:12
 categories: seguranca_informacao
 tags: segurança;vazamento;video;vimeo;aula;
 image: /assets/article_images/2019-05-14-downlaod_video_universidade/post_universidade_desktop.jpg
 image2: /assets/article_images/2019-05-14-downlaod_video_universidade/post_universidade_desktop.jpg
 ---
-#	<center>Vazamento de aulas da maior universidade do país.</center>
+#	<center>Vazamento de aulas da maior universidade privada do país.</center>
 ####	O vazamento inclui todas as aulas independente de matéria, período, professor ou estado brasileiro. É possível até mesmo visualizar exercícios aplicados ao final de cada aula/vídeo.
 > 
 Download: [https://github.com/jonathanscheibel/DownloadAulasUniversidade](https://github.com/jonathanscheibel/DownloadAulasUniversidade)
