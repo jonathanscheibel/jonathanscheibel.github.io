@@ -27,7 +27,6 @@ Veja algumas das vantagens em se adquirir uma conta business:
 - Faça upload, incorpore e até mesmo venda seus vídeos 360 e use controles personalizados para orientar os espectadores;    
 - Simplifique seu processo com uploads diretos e edição do Adobe Premiere Pro, do Final Cut Pro e do Dropbox;    
 - Acompanhe quem assiste a seus vídeos e veja onde o engajamento e os horários de exibição caem;
-- Etc
    
 Segundo [Michael Oliveira](https://www.youtube.com/watch?v=U9ZDGOrttC0) com Vímeo é possível restringir os acessos aos vídeos, porém isso ainda não está sendo feito, talvez aí seja o impacto principal e o foco onde deveria ser atacado para correção da falha.
 
@@ -35,7 +34,14 @@ Segundo [Michael Oliveira](https://www.youtube.com/watch?v=U9ZDGOrttC0) com Vím
 Script criado em python em um ambiente linux para realizar o download automático somente para vídeos da universidade afim. Este tratamento é realizado utilizando o padrão encontrado no título do vídeo. Fácil né?
 Com uma ferramenta nativa no sistema operacional [Parrot](https://www.parrotsec.org/) - especializado em segurança - chamada [youtube-dl](https://ytdl-org.github.io/youtube-dl/download.html) é possível fazer a checagem do vídeo antes mesmo de começar seu download, como várias outras coisas como por exemplo extração do metadata, incluir usuário e senha, especificar formato de áudio e vídeo, user-agent e muito mais. Consulte o man do aplicativo para mais informações.
 
-Esclareço que utilizei MVP - (Minimum Viable Product) à risca neste script, isto é, ainda precisa de algumas melhorias. Façam fork à vontade!
+Esclareço que utilizei MVP - (Minimum Viable Product) à risca neste script, isto é, ainda precisa de algumas melhorias como: 
+- Expressão regular para identificação do título do vídeo;
+- Controle de exceção;
+- Opção de destino do download;
+- Opção para debug;
+- etc.
+
+Façam fork à vontade!
 
 Para mais informações, consulte a documentação dentro do script.
 Obrigado e até a próxima!
