@@ -9,6 +9,7 @@ image2: /assets/article_images/2019-05-14-downlaod_video_universidade/post_unive
 ---
 #	<center>Vazamento de aulas da maior universidade privada do país.</center>
 
+
 ####	O vazamento inclui todas as aulas independente de matéria, período, professor ou estado brasileiro. É possível até mesmo visualizar exercícios aplicados ao final de cada aula/vídeo.
 
 > 
