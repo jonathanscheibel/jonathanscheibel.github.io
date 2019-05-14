@@ -8,11 +8,9 @@ image: /assets/article_images/2019-05-14-downlaod_video_universidade/post_univer
 image2: /assets/article_images/2019-05-14-downlaod_video_universidade/post_universidade_desktop.jpg
 ---
 #	<center>Vazamento de aulas da maior universidade do país.</center>
-##	O vazamento inclui todas as aulas independente de matéria, período, professor ou estado brasileiro. É possível até mesmo visualizar exercícios aplicados ao final de cada aula/vídeo.
-
+####	O vazamento inclui todas as aulas independente de matéria, período, professor ou estado brasileiro. É possível até mesmo visualizar exercícios aplicados ao final de cada aula/vídeo.
 > 
-
-Download: https://github.com/jonathanscheibel/DownloadAulasUniversidade
+Download: [https://github.com/jonathanscheibel/DownloadAulasUniversidade](https://github.com/jonathanscheibel/DownloadAulasUniversidade)
 
 ## 1/3 - Restrições de pesquisa:
 Primeiramente quero deixar claro que meu intuito **não é difamar a universidade** – que inclusive venho acompanhando várias modificações importantes no tocante segurança e também não citarei o nome desta universidade – mas sim disseminar a importância e carência desta área tão importante para as organizações, e principalmente as de estudo. E mais, como todo analista de segurança deveria fazer, já alertei sobre a falha de segurança por e-mail antes da divulgação deste material.
