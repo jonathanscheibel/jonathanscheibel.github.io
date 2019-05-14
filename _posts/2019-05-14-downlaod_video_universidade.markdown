@@ -19,6 +19,8 @@ Download: [DownloadAulasUniversidade](https://github.com/jonathanscheibel/Downlo
 ## 1/3 - Restrições de pesquisa:
 Primeiramente quero deixar claro que meu intuito **não é difamar a universidade** – que inclusive venho acompanhando várias modificações importantes no tocante segurança e também não citarei o nome desta universidade – mas sim disseminar a importância e carência desta área tão importante para as organizações, e principalmente as de estudo. E mais, como todo analista de segurança deveria fazer, já alertei sobre a falha de segurança por e-mail antes da divulgação deste material.
 
+Outra observação, não menos importante é de que não disponibilizo em hipotese alguma vídeos, links internos da página da universidade e/ou credenciais de acesso ao portal da instituição, isto é, os links aqui informados são públicos e de libre acesso a qualquer navegante web.
+
 ## 2/3 - Vamos ao caso:
 Acredito ser de pouco tempo, mas, pelo que parece, a universidade modificou a estrutura de armazenagem dos vídeos de streaming local para online. Anteriormente as aulas eram transmitidas em tempo real e baixadas em vários arquivos separadamente e “compilados” pelo navegador, fazendo com que houvesse um aproveitamento maior dos recursos da máquina do aluno/cliente. Esta metodologia buscava em um arquivo de texto o link para cada minuto e segundo do vídeo e fazia a junção em tempo de execução, tornando o processo mais custoso no lado cliente do que no servidor, evitando grande concorrência de banda entre outros aplicativos utilizadores da internet.
 
