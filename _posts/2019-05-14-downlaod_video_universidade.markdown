@@ -18,10 +18,10 @@ Download: [DownloadAulasUniversidade](https://github.com/jonathanscheibel/Downlo
 ## 1/3 - Restrições de pesquisa:
 Primeiramente quero deixar claro que meu intuito **não é difamar a universidade** – que inclusive venho acompanhando várias modificações importantes no tocante segurança e também não citarei o nome desta universidade – mas sim disseminar a importância e carência desta área tão importante para as organizações, e principalmente as de estudo. E mais, como todo analista de segurança deveria fazer, já alertei sobre a falha de segurança por e-mail antes da divulgação deste material.
 
-## 2/3 - Agora salvo de problemas jurídicos vamos ao caso:
-Acredito ser de pouco tempo, mas, pelo que parece, a universidade modificou a estrutura de armazenagem dos vídeos de streaming local para online. Anteriormente as aulas eram transmitidas em tempo real e baixadas em vários arquivos separadamente e “compilados” pelo navegador, fazendo com que houvesse um aproveitamento maior dos recursos da máquina do aluno/cliente. Esta metodologia buscava em um arquivo de texto o link para cada minuto e segundo do vídeo e fazia a junção em tempo de execução, tornando o processo mais custoso ao lado cliente que no servidor, evitando grande concorrência de banda entre outros aplicativos utilizadores da internet.
+## 2/3 - Vamos ao caso:
+Acredito ser de pouco tempo, mas, pelo que parece, a universidade modificou a estrutura de armazenagem dos vídeos de streaming local para online. Anteriormente as aulas eram transmitidas em tempo real e baixadas em vários arquivos separadamente e “compilados” pelo navegador, fazendo com que houvesse um aproveitamento maior dos recursos da máquina do aluno/cliente. Esta metodologia buscava em um arquivo de texto o link para cada minuto e segundo do vídeo e fazia a junção em tempo de execução, tornando o processo mais custoso no lado cliente do que no servidor, evitando grande concorrência de banda entre outros aplicativos utilizadores da internet.
 
-Qual metodologia foi aplicada agora? Vimeo. Isso mesmo. 
+Qual metodologia foi aplicada agora? [Vimeo](https://www.vimeo.com). Isso mesmo. 
 Veja algumas das vantagens em se adquirir uma conta business:
 - Envie e receba vídeos com segurança de todos os tamanhos e desfrute de proteção por senha e privacidade em nível de domínio;
 - Faça upload, incorpore e até mesmo venda seus vídeos 360 e use controles personalizados para orientar os espectadores;    
