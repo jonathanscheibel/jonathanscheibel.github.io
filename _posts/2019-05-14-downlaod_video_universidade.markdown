@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Vazamento de aulas da maior universidade privada do país."
+title:  "O vazamento inclui todas as aulas independente de matéria, período, professor ou estado brasileiro. É possível até mesmo visualizar exercícios aplicados ao final de cada aula/vídeo"
 date:   2019-05-14 23:50:12
 categories: seguranca_informacao
 tags: segurança;vazamento;video;vimeo;aula;
