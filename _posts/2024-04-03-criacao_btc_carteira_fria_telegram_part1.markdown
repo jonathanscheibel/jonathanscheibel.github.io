@@ -36,7 +36,7 @@ Irei dividir esta postagem em duas partes, Nesta primeira parte irei mostrar uma
 Em uma segunda parte, irém utilizar desta classe (a resposnsavel por manipular a carteira) em um bot para o telegram.  Chamarei de client, pois pode ser qualquer modelo ou protótipo e/ou frontend de iteração com seu cliente final.  Esta camada que irei abordar a seguir se dá por exemplificar as vantagens de utilização em automatizações e como faze-la.
 
 ## _Vamos começar:_
-
+---
 
 ### _[1/7]- Integração com Electrum (vendoring):_
 Primeiramente precisamos baixar o Electrum. Atualmente na versao: [Electrum 4.5.4](https://download.electrum.org/4.5.4/Electrum-4.5.4.tar.gz) (4.5.4 na versão semantica). É preciso fazer o download da versao para python e em seguida faça vendoring. Caso voce precise de ajuda para realizar o vendoring, recomendo assistir esta live do [Eduardo Mendes](https://dunossauro.live). A live está no youtube como: [Sua aplicação NÃO está segura](https://www.youtube.com/watch?v=cEkA9PH2oEk) para entender mais sobre esta técnica.
