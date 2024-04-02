@@ -50,7 +50,7 @@ async def start_daemon(self):
     command = f"{self._ELECTRUM} daemon -d"
     await self.execute_command(command)
 ```
-`Não se preocupe, você verá este projeto em sua integra`
+`Não se preocupe, você verá este projeto em sua integra mais tarde!`
 
 Observe que este método executa o comando do binário baixado e executa-o em backgroud (para utilização de integrações).
 Como visto na imagem de configuração, também criei um métido para carregar a carteira previamente construida. Veja:
@@ -148,7 +148,14 @@ Veja abaixo a criação do hash dinamicamente, ou seja, cada transação terá u
 Assim que o bitcoin for confirmado por no mínimo três nós, o pagamento é marcado como recebido. Isso é o que veremos no próximo tópico.
 
 ### _[6/7] - Detectando recebimento:_
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Existem algumas triggers que podem ser disparadas ao reconhecer o pagamento na blockchain pelo objeto HelperBTC. Aqui vou mostrar a impressão no terminal, mas o output pode ser implementado por demanda.
+
+![Pagamento detectado. Três ou mais blocos da blockchain o confirmaram.](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/pagamento_confirmado.png)
+Agora você me pergunta, isso não deveria ficar salvo no banco de dados da aplicaçao?
+
+> Sim e não. A responsabilidade de guardar estas informações de operações na blockchain fica para a wallet do Electrum, porém a regra de negocio da utilização da classe HelperBTC sim utiliza-se de banco de dados. Veja as configurações da aplicação ao clonar o repositório.
+
+A elaboração do mecanismo de detecção de pagamento é simples e não precia de mais detalhes explicatórios.
 
 ### _[7/7] - Conclusão:_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
