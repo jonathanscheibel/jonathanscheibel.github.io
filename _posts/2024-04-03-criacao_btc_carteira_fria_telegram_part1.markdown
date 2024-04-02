@@ -7,7 +7,7 @@ tags: segurança;vazamento;video;vimeo;aula;
 image: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/capa_btc_telegram.jpg
 image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/capa_btc_telegram.jpg
 ---
-#	<center>Resolvendo o problema para recebimento automático de bitcoin: Usando python para manipulação de carteira fria além de integração com telegram.</center>
+#	<center>Resolvendo o problema para recebimento automático de Bitcoin: Usando python para manipulação de carteira fria além de integração com Telegram.</center>
 
 >
 
