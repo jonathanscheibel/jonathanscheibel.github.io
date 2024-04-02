@@ -37,28 +37,29 @@ Esta integração se dá por exemplificar as vantagens de utilização em automa
 
 
 ## _Vamos começar:_
+---
 
-### _Integração com Electrum (vendoring):_
+### _[1/7]- Integração com Electrum (vendoring):_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-### _Mostrando a classe de manipulação:_
+### _[2/7] - Mostrando a classe de manipulação:_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 ![configuracao_electreum_sqlite](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/conf_wallet_sqlite.jpg)
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-### _Configurações do projeto:_
+### _[3/7] - Configurações do projeto:_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-### _Executando observação da carteira:_
+### _[4/7] - Executando observação da carteira:_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-### _Criando um endereço de recebmento:_
+### _[5/7] - Criando um endereço de recebmento:_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-### _Detectando recebimento:_
+### _[6/7] - Detectando recebimento:_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-### _Conclusão:_
+### _[7/7] - Conclusão:_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 
@@ -68,41 +69,4 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 
 
-
-## 2/3 - Vamos ao caso:
-Acredito ser de pouco tempo, mas, pelo que parece, a universidade modificou a estrutura de armazenagem dos vídeos de streaming local para online. Anteriormente as aulas eram transmitidas em tempo real e baixadas em vários arquivos separadamente e “compilados” pelo navegador, fazendo com que houvesse um aproveitamento maior dos recursos da máquina do aluno/cliente. Esta metodologia buscava em um arquivo de texto o link para cada minuto e segundo do vídeo e fazia a junção em tempo de execução, tornando o processo mais custoso no lado cliente do que no servidor, evitando grande concorrência de banda entre outros aplicativos utilizadores da internet.
-
-Qual metodologia foi aplicada agora? [Vimeo](https://www.vimeo.com). Isso mesmo. 
-Veja algumas das vantagens em se adquirir uma conta business:
-- Envie e receba vídeos com segurança de todos os tamanhos e desfrute de proteção por senha e privacidade em nível de domínio;
-- Faça upload, incorpore e até mesmo venda seus vídeos 360 e use controles personalizados para orientar os espectadores;    
-- Simplifique seu processo com uploads diretos e edição do Adobe Premiere Pro, do Final Cut Pro e do Dropbox;    
-- Acompanhe quem assiste a seus vídeos e veja onde o engajamento e os horários de exibição caem;
-   
-Segundo [Michael Oliveira](https://www.youtube.com/watch?v=U9ZDGOrttC0) com Vímeo é possível restringir os acessos aos vídeos, porém isso ainda não está sendo feito, talvez aí seja o impacto principal e o foco onde deveria ser atacado para correção da falha.
-
-## 3/3 - Explicação do Script:
-Script criado em python em um ambiente linux para realizar o download automático somente para vídeos da universidade afim. Este tratamento é realizado utilizando o padrão encontrado no título do vídeo. Fácil né?
-Com uma ferramenta nativa no sistema operacional [Parrot](https://www.parrotsec.org/) - especializado em segurança - chamada [youtube-dl](https://ytdl-org.github.io/youtube-dl/download.html) é possível fazer a checagem do vídeo antes mesmo de começar seu download, como várias outras coisas como por exemplo extração do metadata, incluir usuário e senha, especificar formato de áudio e vídeo, user-agent e muito mais. Consulte o man do aplicativo para mais informações.
-
-Esclareço que utilizei MVP - (Minimum Viable Product) à risca neste script, isto é, ainda precisa de algumas melhorias como: 
-- Expressão regular para identificação do título do vídeo;
-- Controle de exceção;
-- Opção de destino do download;
-- Opção para debug;
-- etc.
-
-Façam fork à vontade!
-
-Para mais informações, consulte a documentação dentro do script.
-Obrigado e até a próxima!
-
-Download: [cprox](https://github.com/jonathanscheibel/cprox)
-
-##### Fontes:
-- [Vímeo - https://vimeo.com/business](https://vimeo.com/business)
-- [Michael Oliveira - https://www.youtube.com/watch?v=U9ZDGOrttC0](https://www.youtube.com/watch?v=U9ZDGOrttC0)
-- [Ferramenta utilizada - https://ytdl-org.github.io/youtube-dl/download.html](https://ytdl-org.github.io/youtube-dl/download.html)
-- [MVP - https://www.heflo.com/pt-br/inovacao/scrum-mvp](https://www.heflo.com/pt-br/inovacao/scrum-mvp)
-- [ParrotSec - https://www.parrotsec.org/](https://www.parrotsec.org/)
-
+Fontes:
