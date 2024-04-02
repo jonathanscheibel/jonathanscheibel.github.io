@@ -143,7 +143,7 @@ Veja abaixo a criação do hash dinamicamente, ou seja, cada transação terá u
 
 ![Realizando o pagamento via URI](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/realizando_pagamento.gif)
 
-[Transação na blockchain](https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479)
+Você pode conferir esta transação na blockchain: [https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479](https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479)
 
 Assim que o bitcoin for confirmado por no mínimo três nós, o pagamento é marcado como recebido. Isso é o que veremos no próximo tópico.
 
@@ -153,21 +153,15 @@ Existem algumas triggers que podem ser disparadas ao reconhecer o pagamento na b
 ![Pagamento detectado. Três ou mais blocos da blockchain o confirmaram.](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/pagamento_confirmado.png)
 Agora você me pergunta, isso não deveria ficar salvo no banco de dados da aplicaçao?
 
-<a href="https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/pagamento_confirmado.png" target="_blank">Pagamento detectado. Três ou mais blocos da blockchain o confirmaram.</a>
-
-
 > Sim e não. A responsabilidade de guardar estas informações de operações na blockchain fica para a wallet do Electrum, porém a regra de negocio da utilização da classe HelperBTC sim utiliza-se de banco de dados. Veja as configurações da aplicação ao clonar o repositório.
 
 A elaboração do mecanismo de detecção de pagamento é simples e não precia de mais detalhes explicatórios.
 
 ### _[7/7] - Conclusão:_
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Primeiramente peço desculpas por inúmeros topicos não abordados, porém em minha defesa, o trabalho ficaria pouco prático para sua leitura. E também convem explicar que, este assunto é muito amblo e a gama de possibilidades é quase que infinita.
+Neste primeiro post, mostrei a funcionalidade de uma classe que resolve a comunicação entre a rede bitcoin e como manipular sua carteira localmente. A próxima etapa irei continuar este conteudo trazendo até você uma utilização pratica deste método para aplicação "real", ou seja, um aplicativo Telegram.
 
-
-
-
-
-
+Obrigado pelo tempo, e para quaisquer explicações estou a disposição.
 
 
 Fontes:
