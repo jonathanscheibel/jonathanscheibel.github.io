@@ -40,18 +40,100 @@ Esta integração se dá por exemplificar as vantagens de utilização em automa
 ---
 
 ### _[1/7]- Integração com Electrum (vendoring):_
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Baixe a versão mais atual do Electrum. Atualmente na versao: [Electrum 4.5.4](https://download.electrum.org/4.5.4/Electrum-4.5.4.tar.gz) (versão semantica), baixe na versao para python e faça vendoring. Caso voce precise de ajuda para realizar o vendoring recomendo assistir esta [live do Eduardo Mendes](https://www.youtube.com/watch?v=ZOSWdktsKf0) para entender mais sobre esta técnica.
+
+Uma das vantagens para escolha deste projeto é de que o mesmo foi construido com python. Isso nos dá flexibilidade para escalar e trazer novas features para o projeto.
+
+Com ele devidamente instalado no projeto python, construi uma classe que utiliza o daemon (serviço disponibilizado pelo Electrum) para que eu possa consumi-lo via API.
+```
+async def start_daemon(self):
+    command = f"{self._ELECTRUM} daemon -d"
+    await self.execute_command(command)
+```
+`Não se preocupe, você verá este projeto em sua integra`
+
+Observe que este método executa o comando do binário baixado e executa-o em backgroud (para utilização de integrações).
+Como visto na imagem de configuração, também criei um métido para carregar a carteira previamente construida. Veja:
+```
+async def load_wallet(self):
+    command = f"{self._ELECTRUM} -w {self._wallet_path} load_wallet -W {self._wallet_pass}"
+    await self.execute_command(command)
+```
+
+Assim sendo, no construtor da classe, eu executo a instrução de carregamento do daemon e por conseguinte faço o carregamento da carteira.
+```
+async def init_wallet(self):
+    await self.start_daemon()
+    await self.load_wallet()
+    await self.monitor_payment()
+```
+
+Observe que também existe um método que também é assincrono, para monitoramento de pagamentos recebidos, no qual eu irei abordar no tópico "6 - Detectando recebimento".
 
 ### _[2/7] - Mostrando a classe de manipulação:_
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-![Arquivo de configuração do projeto mostrando os valores para variáves de conexão com banco de dados e caminho da wallet do Electrum](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/conf_wallet_sqlite.jpg)
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Para melhor explicação começarei mostrando a criação da instancia da classe que fará o trabalho de levantar o serviço do Electrum, conectar a nossa wallet e também criar nosso hash para recebimento dos bitcoins. Veja o dunder main deste módulo que chamei de wallet_btc.py:
+```
+if __name__ == "__main__":
+    db_cproxbot, loop_base = init_data_base()
+
+
+    async def main():
+        helper_btc = HelperBTC(db_cproxbot)
+        try:
+            additional = {"id": "00692847", "sys": "SYSTEM_ABC", "nome": "Jonathan Scheibel", "tel": "21999999999"}
+            description = f'{additional["sys"]} - {additional["id"]} - Agendamento em sistemas'
+            hash_btc, uri_btc = await helper_btc.request_btc(id_telegram=additional["id"], description=description,
+                                                             additional_info=additional)
+            print(hash_btc, uri_btc)
+            while True:
+                await asyncio.sleep(3)
+
+        finally:
+            del helper_btc
+
+
+    asyncio.run(main())
+```
+
+Vou me atentar em explicar um pouco sobre caracteristicas especiais da regra de negocio, visto que, assumo que já está familiarizado com as demais instruções. Caso tenha alguma duvida sobre itens que eu não irei mencionar, pode me chamar no telegram: [@jonathansmorais](https://t.me/jonathansmorais)
+
+Primeiramente vou falar sobre criação da variavel additional, no qual serve para enviar para o objeto HelperBTC algumas informações vindas do bot do telegram. A referência para a postagem está [neste link](https://jonathanscheibel.github.io/seguranca_informacao/2024/04/01/criacao_btc_carteira_fria_telegram_parte_2.html).
+
+Gostaria de mensionar também a chamada ao métido `request_btc` que retorna uma tupla. Este método não só devolve o hash novo gerado automaticamente pela instancia, como também uma URI, no qual será gerado um QRCode pelo objeto que irá consumir este objeto.
+
+Por último, estou mostrando agora a classe construtora para que, antes de qualquer analise do código, você possa ter uma ideia de quão simples a classe é, em relação aos beneficios que ela carrega.
+
+```
+class HelperBTC:
+    def __init__(self, connection):
+        if not connection:
+            raise Exception("É necessário uma conexão de banco de dados para esta classe. Passe para o construtor do "
+                            "objeto ao menos uma base de dados sqlite.")
+        self._monitor_task = None
+
+        logging.basicConfig(level=logging.INFO)
+        self._ELECTRUM = os.path.join(os.path.dirname(os.path.abspath(__file__)), '../electrum', 'Electrum-4.5.2',
+                                      'run_electrum')
+        self._wallet_path = get_env("WALLET_PATH")
+        self._wallet_pass = get_env("WALLER_PASS")
+        self.connection = connection
+        self._stop_event = threading.Event()
+        self._loop = asyncio.new_event_loop()
+        self.start()
+[...]
+```
 
 ### _[3/7] - Configurações do projeto:_
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Para melhor organização do projeto em tempo de desenvolvimento, forneci ao projeto um arquivo de configuração:
+![Arquivo de configuração do projeto mostrando os valores para variáves de conexão com banco de dados e caminho da wallet do Electrum](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/conf_wallet_sqlite.jpg)
+Ao clonar o projeto, será necessário alterar estas configurações para seu escopo local, obviamente.
 
 ### _[4/7] - Executando observação da carteira:_
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Primeiramente irei instanciar o objeto sem a execução do método `request_btc` justamente parq que haja um tópico separado e mais organizado para isso. Irei comentar esta instrução.
+com o ambiente virtual criado e ativado, ao executar o helper, graças ao sistema de logging criado, podemos observar no terminal as saídas do script:
+
+![Imagem de logging no monitoramento da carteira bitcoin, mostrando a busca por movimentações ](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/logging_wallet_monitor.png)
+> Disclaimer: nunca rode seus projetos com usuário root, este usuário que estou mostrando é somente um exemplo.
 
 ### _[5/7] - Criando um endereço de recebmento:_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
