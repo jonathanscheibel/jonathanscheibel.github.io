@@ -4,8 +4,8 @@ title:  "Criação de carteira fria de Bitcoin e integração com telegram"
 date:   2024-04-03 23:50:12
 categories: seguranca_informacao
 tags: segurança;vazamento;video;vimeo;aula;
-image: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/capa3_btc_telegram.jpg
-image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/capa3_btc_telegram.jpg
+image: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/capa3_btc_telegram
+image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/capa3_btc_telegram
 ---
 #	<center>Resolvendo o problema para recebimento automático de bitcoin: Utilização de carteira fria além de integração com telegram.</center>
 
