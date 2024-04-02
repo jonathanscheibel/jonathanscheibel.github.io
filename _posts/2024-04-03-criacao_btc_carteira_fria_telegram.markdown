@@ -40,7 +40,7 @@ Esta integração se dá por exemplificar as vantagens de utilização em automa
 ---
 
 ### _[1/7]- Integração com Electrum (vendoring):_
-Baixe a versão mais atual do Electrum. Atualmente na versao: [Electrum 4.5.4](https://download.electrum.org/4.5.4/Electrum-4.5.4.tar.gz) (versão semantica), baixe na versao para python e faça vendoring. Caso voce precise de ajuda para realizar o vendoring recomendo assistir esta [live do Eduardo Mendes](https://www.youtube.com/watch?v=ZOSWdktsKf0) para entender mais sobre esta técnica.
+Baixe a versão mais atual do Electrum. Atualmente na versao: [Electrum 4.5.4](https://download.electrum.org/4.5.4/Electrum-4.5.4.tar.gz) (versão semantica), baixe na versao para python e faça vendoring. Caso voce precise de ajuda para realizar o vendoring recomendo assistir esta live do [Eduardo Mendes](https://dunossauro.live). A live está no youtube como: [Sua aplicação NÃO está segura](https://www.youtube.com/watch?v=cEkA9PH2oEk) para entender mais sobre esta técnica.
 
 Uma das vantagens para escolha deste projeto é de que o mesmo foi construido com python. Isso nos dá flexibilidade para escalar e trazer novas features para o projeto.
 
@@ -133,10 +133,10 @@ Primeiramente irei instanciar o objeto sem a execução do método `request_btc`
 com o ambiente virtual criado e ativado, ao executar o helper, graças ao sistema de logging criado, podemos observar no terminal as saídas do script:
 
 ![Imagem de logging no monitoramento da carteira bitcoin, mostrando a busca por movimentações ](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/logging_wallet_monitor.png)
-> Disclaimer: nunca rode seus projetos com usuário root, este usuário que estou mostrando é somente um exemplo.
+> Disclaimer: nunca rode seus projetos com usuário root, este usuário que estou mostrando é somente um exemplo. Colabore para o projeto com itens uteis como a melhoria do logging, utilização de telemetria e observabilidade. Fique a vontade para isso.
 
 ### _[5/7] - Criando um endereço de recebmento:_
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+![Gerado hash para recebimento automático na blockchain](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/hash_para_recebimento.png)
 
 ### _[6/7] - Detectando recebimento:_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
