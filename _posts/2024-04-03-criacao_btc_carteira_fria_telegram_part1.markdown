@@ -14,7 +14,7 @@ image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_par
 ## _Descrevendo o problema:_
 ---
 
-### _Problema de corretoras:_
+### _Corretoras:_
 Hoje muitas pessoas e empresas recebem e enviam seus bitcoins, seja através de corretoras ou carteiras frias e/ou offline.  Seja através de internet comum ou através de redes decentralizadas como [TOR](https://www.torproject.org ) ou [NYM](https://nymtech.net/).
 
 Sabemos que corretoras trazem diversas vantagens em relação ao trabalho não gasto para as operações crypto, porém nem tudo são flores. As enormes taxas de transmissão geralmente não são negociaveis, ou seja, a flexibilidade de pagamento através do caso em especifico da transação (vulgo prioridade da fila) se torna indefinido, ou seja, impossível. Essa é só uma das muitas maneiras de "roubo" que as corretoras possuem para ludibriar o operador. Mesmo sendo uma transação não prioritária, você e seu cliente paragará por isso. Por conseguinte perderão dinheiro.
@@ -23,7 +23,7 @@ Além destas taxas abusivas, temos também quê, a consideração por sua sua pr
 
 > Um exemplo: Você pode operar USDT utilizando a rede Bitcoin, utilizando o protocolo de forma correta, inclusive aproveitando da rede lightning. Mas isso é assunto para outra postagem.
 
-### _Mercado crescente:_
+### _Mercado:_
 
 Bem como alguns já sabem, não só de fraldes ou operações ilicitas vive o bitcoin. Alias, essa é uma mínima fração de utilização do bitcoin. De acordo com a [chainalysisem](https://go.chainalysis.com/rs/503-FAP-074/images/Crypto_Crime_Report_2023.pdf) 2023 foram somente 11bi. Além de estar diminiundo estes casos com o passar dos anos, vale a pena dizer que esta informação está se disseminando, ajundando no esclarecimento deste mito.
 
