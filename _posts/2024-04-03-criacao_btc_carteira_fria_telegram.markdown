@@ -136,7 +136,10 @@ com o ambiente virtual criado e ativado, ao executar o helper, graças ao sistem
 > Disclaimer: nunca rode seus projetos com usuário root, este usuário que estou mostrando é somente um exemplo. Colabore para o projeto com itens uteis como a melhoria do logging, utilização de telemetria e observabilidade. Fique a vontade para isso.
 
 ### _[5/7] - Criando um endereço de recebmento:_
+Veja abaixo a criação do hash dinamicamente, ou seja, cada transação terá um hash unico, assim aumentando a segurança e privacidade da sua wallet. Com isso, ao integrar com seu negocio você pode isolar os paragentos com nivel de granularidade aperfeiçoado. Além disso, veja que na URI possui alguns valores do protocolo BTC para que a wallet do cliente seja preenchida autometicamente. Veremos isso na aplicação client que faremos utilizando o telegram.
 ![Gerado hash para recebimento automático na blockchain](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/hash_para_recebimento.png)
+
+É interessante ressaltar também, que, por ser uma classe assincrona, a mesma está preparada para requisições simultaneas e resolução de clientes que demandam processamentos deste tipo. Em outras palavras, a aplicação não para para gerar hashs de bitcoin enquanto verifica se houve algum pagamento.
 
 ### _[6/7] - Detectando recebimento:_
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
