@@ -11,7 +11,7 @@ image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/cap
 
 >
 
-## 1/3 - Restrições de pesquisa:
+## 1/3 - Descrevendo o problema:
 Primeiramente quero deixar claro que meu intuito **não é difamar a universidade** – que inclusive venho acompanhando várias modificações importantes no tocante segurança e também não citarei o nome desta universidade – mas sim disseminar a importância e carência desta área tão importante para as organizações, e principalmente as de estudo. E mais, como todo analista de segurança deveria fazer, já alertei sobre a falha de segurança por e-mail antes da divulgação deste material.
 
 Outra observação, não menos importante é de que não disponibilizo em hipotese alguma vídeos, links internos da página da universidade e/ou credenciais de acesso ao portal da instituição, isto é, os links aqui informados são públicos e de livre acesso a qualquer navegante web.
