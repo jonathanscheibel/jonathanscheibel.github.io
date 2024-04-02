@@ -15,6 +15,7 @@ image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_par
 
 ## _Descrevendo o problema:_
 
+
 ### _Problema de corretoras:_
 Hoje muitas pessoas e empresas recebem e enviam seus bitcoins, seja através de corretoras ou carteiras frias e/ou offline.  Seja através de internet comum ou através de redes decentralizadas como [TOR](https://www.torproject.org ) ou [NYM](https://nymtech.net/).  Ce
 
@@ -37,6 +38,7 @@ Irei dividir esta postagem em duas partes, Nesta primeira parte irei mostrar uma
 Em uma segunda parte, irém utilizar desta classe (a resposnsavel por manipular a carteira) em um bot para o telegram.  Chamarei de client, pois pode ser qualquer modelo ou protótipo e/ou frontend de iteração com seu cliente final.  Esta camada que irei abordar a seguir se dá por exemplificar as vantagens de utilização em automatizações e como faze-la.
 
 ## _Vamos começar:_
+
 
 ### _[1/7]- Integração com Electrum (vendoring):_
 Primeiramente precisamos baixar o Electrum. Atualmente na versao: [Electrum 4.5.4](https://download.electrum.org/4.5.4/Electrum-4.5.4.tar.gz) (4.5.4 na versão semantica). É preciso fazer o download da versao para python e em seguida faça vendoring. Caso voce precise de ajuda para realizar o vendoring, recomendo assistir esta live do [Eduardo Mendes](https://dunossauro.live). A live está no youtube como: [Sua aplicação NÃO está segura](https://www.youtube.com/watch?v=cEkA9PH2oEk) para entender mais sobre esta técnica.
@@ -164,3 +166,4 @@ Neste primeiro post, mostrei a funcionalidade de uma classe que resolve a comuni
 Outro detalhe importante que preciso deixar claro é de que, embora este mecanismo de automatização funcione muito bem na prátia, este modelo requer atenção quando se trata de moedas não fiduciarias, ou seja, cryptos por naturesa queretem uma atenção maior, por nao consumirem recursos bancários tradicionais e/ou de governos. Em outras palavras, é importante esboçar um plano de ação para trocos e pagamentos errônios.
 
 O trabalho para garantir a privacidade sempre foi grande, e continuarei lutando para tal. No mais, muito obrigado pelo tempo, e para quaisquer explicações estou a disposição.
+
