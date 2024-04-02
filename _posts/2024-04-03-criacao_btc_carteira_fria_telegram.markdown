@@ -4,14 +4,14 @@ title:  "Criação de carteira fria de Bitcoin e integração com telegram"
 date:   2019-05-14 23:50:12
 categories: seguranca_informacao
 tags: segurança;vazamento;video;vimeo;aula;
-image: /assets/article_images/2019-05-14-downlaod_video_universidade/post_universidade_desktop.jpg
-image2: /assets/article_images/2019-05-14-downlaod_video_universidade/post_universidade_desktop.jpg
+image: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/capa_btc_telegram.jpg
+image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/capa2_btc_telegram.jpg
 ---
-#	<center>Resolvendo o problema para recebimento automático de bitcoin em carteira fria e integração com telegram.</center>
+#	<center>Resolvendo o problema para recebimento automático de bitcoin: Utilização de carteira fria além de integração com telegram.</center>
 
 >
 
-Download: [DownloadAulasUniversidade](https://github.com/jonathanscheibel/DownloadAulasUniversidade)
+Download: [cprox](https://github.com/jonathanscheibel/cprox)
 
 ## 1/3 - Restrições de pesquisa:
 Primeiramente quero deixar claro que meu intuito **não é difamar a universidade** – que inclusive venho acompanhando várias modificações importantes no tocante segurança e também não citarei o nome desta universidade – mas sim disseminar a importância e carência desta área tão importante para as organizações, e principalmente as de estudo. E mais, como todo analista de segurança deveria fazer, já alertei sobre a falha de segurança por e-mail antes da divulgação deste material.
