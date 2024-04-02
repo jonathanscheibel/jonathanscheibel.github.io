@@ -11,13 +11,11 @@ image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_par
 
 >
 
+## _Descrevendo o problema:_
 ---
 
-## _Descrevendo o problema:_
-
-
 ### _Problema de corretoras:_
-Hoje muitas pessoas e empresas recebem e enviam seus bitcoins, seja através de corretoras ou carteiras frias e/ou offline.  Seja através de internet comum ou através de redes decentralizadas como [TOR](https://www.torproject.org ) ou [NYM](https://nymtech.net/).  Ce
+Hoje muitas pessoas e empresas recebem e enviam seus bitcoins, seja através de corretoras ou carteiras frias e/ou offline.  Seja através de internet comum ou através de redes decentralizadas como [TOR](https://www.torproject.org ) ou [NYM](https://nymtech.net/).
 
 Sabemos que corretoras trazem diversas vantagens em relação ao trabalho não gasto para as operações crypto, porém nem tudo são flores. As enormes taxas de transmissão geralmente não são negociaveis, ou seja, a flexibilidade de pagamento através do caso em especifico da transação (vulgo prioridade da fila) se torna indefinido, ou seja, impossível. Essa é só uma das muitas maneiras de "roubo" que as corretoras possuem para ludibriar o operador. Mesmo sendo uma transação não prioritária, você e seu cliente paragará por isso. Por conseguinte perderão dinheiro.
 
