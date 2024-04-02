@@ -153,6 +153,9 @@ Existem algumas triggers que podem ser disparadas ao reconhecer o pagamento na b
 ![Pagamento detectado. Três ou mais blocos da blockchain o confirmaram.](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/pagamento_confirmado.png)
 Agora você me pergunta, isso não deveria ficar salvo no banco de dados da aplicaçao?
 
+<a href="https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/pagamento_confirmado.png" target="_blank">Pagamento detectado. Três ou mais blocos da blockchain o confirmaram.</a>
+
+
 > Sim e não. A responsabilidade de guardar estas informações de operações na blockchain fica para a wallet do Electrum, porém a regra de negocio da utilização da classe HelperBTC sim utiliza-se de banco de dados. Veja as configurações da aplicação ao clonar o repositório.
 
 A elaboração do mecanismo de detecção de pagamento é simples e não precia de mais detalhes explicatórios.
