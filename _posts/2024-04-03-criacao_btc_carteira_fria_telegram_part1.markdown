@@ -100,8 +100,6 @@ Primeiramente vou falar sobre criação da variavel `additional`, no qual serve 
 
 Gostaria de mensionar também a chamada ao métido `request_btc` que retorna uma tupla. Este método não só devolve o hash novo gerado automaticamente pela instancia, como também uma URI, no qual será gerado um QRCode pelo objeto que irá consumir este retorno.
 
-Por último, estou mostrando agora a classe construtora para que, antes de qualquer analise do código, você possa ter uma ideia de quão simples a clenter code hereasse é, em relação aos beneficios que ela carrega.
-
 ```
 class HelperBTC:
     def __init__(self, connection):
@@ -121,6 +119,8 @@ class HelperBTC:
         self.start()
 [...]
 ```
+Acima, estou mostrando a classe construtora, para que, antes de qualquer analise do código, você possa ter uma ideia de quão simples a clenter code hereasse é, em relação aos beneficios que ela carrega.
+
 
 ### _[3/7] - Configurações do projeto:_
 Para melhor organização do projeto em tempo de desenvolvimento, forneci ao projeto um arquivo de configuração que você pode visualizar abaixo:
