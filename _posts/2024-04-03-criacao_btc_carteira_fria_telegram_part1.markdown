@@ -4,8 +4,8 @@ title:  "Criação de carteira fria de Bitcoin e integração com telegram #(1/2
 date:   2024-04-01 23:50:12
 categories: seguranca_informacao
 tags: segurança;vazamento;video;vimeo;aula;
-image: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/capa_btc_telegram.jpg
-image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/capa_btc_telegram.jpg
+image: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/capa_btc_telegram.jpg
+image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/capa_btc_telegram.jpg
 ---
 #	<center>Resolvendo o problema para recebimento automático de bitcoin: Usando python para manipulação de carteira fria além de integração com telegram.</center>
 
@@ -125,25 +125,25 @@ class HelperBTC:
 
 ### _[3/7] - Configurações do projeto:_
 Para melhor organização do projeto em tempo de desenvolvimento, forneci ao projeto um arquivo de configuração:
-![Arquivo de configuração do projeto mostrando os valores para variáves de conexão com banco de dados e caminho da wallet do Electrum](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/conf_wallet_sqlite.jpg)
+![Arquivo de configuração do projeto mostrando os valores para variáves de conexão com banco de dados e caminho da wallet do Electrum](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/conf_wallet_sqlite.jpg)
 Ao clonar o projeto, será necessário alterar estas configurações para seu escopo local, obviamente.
 
 ### _[4/7] - Executando observação da carteira:_
 Primeiramente irei instanciar o objeto sem a execução do método `request_btc` justamente parq que haja um tópico separado e mais organizado para isso. Irei comentar esta instrução.
 com o ambiente virtual criado e ativado, ao executar o helper, graças ao sistema de logging criado, podemos observar no terminal as saídas do script:
 
-![Imagem de logging no monitoramento da carteira bitcoin, mostrando a busca por movimentações ](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/logging_wallet_monitor.png)
+![Imagem de logging no monitoramento da carteira bitcoin, mostrando a busca por movimentações ](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/logging_wallet_monitor.png)
 > Disclaimer: nunca rode seus projetos com usuário root, este usuário que estou mostrando é somente um exemplo. Colabore para o projeto com itens uteis como a melhoria do logging, utilização de telemetria e observabilidade. Fique a vontade para isso.
 
 ### _[5/7] - Criando um endereço de recebmento:_
 Veja abaixo a criação do hash dinamicamente, ou seja, cada transação terá um hash unico, assim aumentando a segurança e privacidade da sua wallet. Com isso, ao integrar com seu negocio você pode isolar os paragentos com nivel de granularidade aperfeiçoado. Além disso, veja que na URI possui alguns valores do protocolo BTC para que a wallet do cliente seja preenchida autometicamente. Veremos isso na aplicação client que faremos utilizando o telegram.
-![Gerado hash para recebimento automático na blockchain](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram/hash_para_recebimento.png)
+![Gerado hash para recebimento automático na blockchain](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/hash_para_recebimento.png)
 
 É interessante ressaltar também, que, por ser uma classe assincrona, a mesma está preparada para requisições simultaneas e resolução de clientes que demandam processamentos deste tipo. Em outras palavras, a aplicação não para para gerar hashs de bitcoin enquanto verifica se houve algum pagamento.
 
 ![Realizando o pagamento via URI](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/realizando_pagamento.gif)
 
-![Realizando o pagamento via URI [veja toda transação na blockchain](https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479)](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/realizando_pagamento.gif)
+[Transação na blockchain](https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479)](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/realizando_pagamento.gif)
 
 
 ### _[6/7] - Detectando recebimento:_
