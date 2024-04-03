@@ -142,7 +142,7 @@ Veja abaixo a criação do hash dinamicamente, ou seja, cada transação terá u
 
 ![Realizando o pagamento via URI](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/realizando_pagamento.gif)
 
-Confira a transação na blockchain: [https://www.blockchain.com/explorer/transactions/btc/3d07...](https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479)
+Transação na blockchain:[https://blockchain.com/explorer/transactions/btc/3d07...](https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479)
 
 Assim que o bitcoin for confirmado por no mínimo três nós, o pagamento é marcado como recebido. Isso é o que veremos no próximo tópico.
 
@@ -171,10 +171,12 @@ O trabalho para garantir a privacidade sempre foi grande, e continuarei lutando 
 Tornei público o repositório para que você possa visualizar e colaborar.
 
 -  Clonar o repositório e entrar no diretório:
-```git clone https://github.com/jonathanscheibel/cprox.git && cd cprox```
+```git clone https://github.com/jonathanscheibel/cprox.git```
+```cd cprox```
 
 -  Criando o ambiente virtual e ativando-o:
-```python -m venv venv && source venv/bin/activate```
+```python -m venv venv```
+```source venv/bin/activate```
 
 -  Instalando dependencias:
 ```pip install -r requirements.txt```
