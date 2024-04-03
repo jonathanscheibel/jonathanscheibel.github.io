@@ -152,7 +152,7 @@ com o ambiente virtual criado e ativado, ao executar o helper, graças ao sistem
 Veja abaixo a criação do hash dinamicamente, ou seja, cada transação terá um hash único, assim aumentando a segurança e privacidade da sua wallet. Com isso, ao integrar com seu negócio você pode isolar os pagamentos com nível de granularidade aperfeiçoado. Além disso, veja que na URI possui alguns valores do protocolo BTC para que a wallet do cliente seja preenchida automaticamente. Veremos isso na aplicação 'client' que faremos utilizando o telegram.
 ![Gerado hash para recebimento automático na blockchain](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/hash_para_recebimento.png)
 
-É interessante ressaltar também, que, por ser uma classe assíncrona, a mesma está preparada para requisições simultâneas e resolução de clientes que demandam processamentos deste tipo. Em outras palavras, a aplicação não para para gerar hashes de bitcoin enquanto verifica se houve algum pagamento.
+É interessante ressaltar também, que, por ser uma classe assíncrona, a mesma está preparada para requisições simultâneas e resolução de clientes que demandam processamentos deste tipo. Em outras palavras, a aplicação não pausa para gerar hashes de bitcoin enquanto verifica se houve algum pagamento.
 
 ![Realizando o pagamento via URI](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/realizando_pagamento.gif)
 
