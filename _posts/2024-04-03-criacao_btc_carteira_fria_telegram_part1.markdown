@@ -165,7 +165,7 @@ Outro detalhe importante que preciso deixar claro é de que, embora este mecanis
 
 O trabalho para garantir a privacidade sempre foi grande, e continuarei lutando para tal. No mais, muito obrigado pelo tempo, e para quaisquer explicações estou a disposição.
 
-## Bonus - Instação do projeto:
+## Bonus - Instação e execução do projeto:
 
 
 ###  Tornei público o repositório para que você possa visualizar e colaborar.
