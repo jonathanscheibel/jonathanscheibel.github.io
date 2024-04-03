@@ -10,6 +10,18 @@ image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_par
 #	<center>Resolvendo o problema para recebimento automático de Bitcoin: Usando python para manipulação de carteira fria além de integração com Telegram.</center>
 
 >
+- [_Descrevendo o problema:_](#-descrevendo-o-problema)
+  * [_Corretoras:_](#-corretoras)
+  * [_Mercado:_](#-mercado)
+- [_Vamos começar:_](#-vamos-come-ar)
+  * [_[1/7]- Integração com Electrum (vendoring):_](#-1-7-integra-o-com-electrum-vendoring)
+  * [_[2/7] - Mostrando a classe de manipulação:_](#-2-7-mostrando-a-classe-de-manipula-o)
+  * [_[3/7] - Configurações do projeto:_](#-3-7-configura-es-do-projeto)
+  * [_[4/7] - Executando monitoramento da carteira:_](#-4-7-executando-monitoramento-da-carteira)
+  * [_[5/7] - Criando um endereço de recebmento:_](#-5-7-criando-um-endere-o-de-recebmento)
+  * [_[6/7] - Detectando recebimento:_](#-6-7-detectando-recebimento)
+  * [_[7/7] - Conclusão:_](#-7-7-conclus-o)
+- [Bonus - Instação e execução do projeto:](#bonus-insta-o-e-execu-o-do-projeto)
 
 ## _Descrevendo o problema:_
 ---
