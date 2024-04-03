@@ -7,7 +7,7 @@ tags: bitcoin;wallet;telegram;blockchain;integracao;
 image: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/capa_btc_telegram.jpg
 image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/capa_btc_telegram.jpg
 ---
-#	<center>Resolvendo o problema para recebimento automático de Bitcoin: Usando python para manipulação de carteira fria além de integração com Telegram.</center>
+#	<center>Resolvendo o problema para recebimento automático de Bitcoin: Usando Python para manipulação de carteira fria além de integração com Telegram.</center>
 
 
 ## _Índice:_
@@ -54,9 +54,9 @@ Em uma segunda parte, irei utilizar desta classe (a responsável por manipular a
 ---
 
 ### _Integração com electrum:_
-Primeiramente precisamos baixar o Electrum. Atualmente na versão: [Electrum 4.5.4](https://download.electrum.org/4.5.4/Electrum-4.5.4.tar.gz) (4.5.4 na versão semântica). É preciso fazer o download da versão para python e em seguida faça vendoring. Caso voce precise de ajuda para realizar o vendoring, recomendo assistir esta live do [Eduardo Mendes](https://dunossauro.live). A live está no youtube como: [Sua aplicação NÃO está segura](https://www.youtube.com/watch?v=cEkA9PH2oEk) para entender mais sobre esta técnica.
+Primeiramente precisamos baixar o Electrum. Atualmente na versão: [Electrum 4.5.4](https://download.electrum.org/4.5.4/Electrum-4.5.4.tar.gz) (4.5.4 na versão semântica). É preciso fazer o download da versão para Python e em seguida faça vendoring. Caso voce precise de ajuda para realizar o vendoring, recomendo assistir esta live do [Eduardo Mendes](https://dunossauro.live). A live está no youtube como: [Sua aplicação NÃO está segura](https://www.youtube.com/watch?v=cEkA9PH2oEk) para entender mais sobre esta técnica.
 
-Uma das vantagens para escolha deste projeto é de que o mesmo foi construido com python. Isso nos dá flexibilidade para escalar e trazer novas features para o projeto.
+Uma das vantagens para escolha deste projeto é de que o mesmo foi construido com Python. Isso nos dá flexibilidade para escalar e trazer novas features para o projeto.
 
 Com ele devidamente instalado no projeto, construí uma classe que utiliza o daemon (serviço disponibilizado pelo Electrum) para que eu possa consumi-lo via API.
 ```
@@ -109,7 +109,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-Vou me atentar em explicar um pouco sobre características especiais da regra de negócio, visto que, estou considerando o pressuposto de que você já está familiarizado com as demais instruções python. Caso tenha alguma dúvida sobre os itens que eu não irei mencionar aqui, você pode me chamar no telegram: [@jonathansmorais](https://t.me/jonathansmorais)
+Vou me atentar em explicar um pouco sobre características especiais da regra de negócio, visto que, estou considerando o pressuposto de que você já está familiarizado com as demais instruções Python. Caso tenha alguma dúvida sobre os itens que eu não irei mencionar aqui, você pode me chamar no telegram: [@jonathansmorais](https://t.me/jonathansmorais)
 
 Primeiramente vou falar sobre criação da variável `additional`, no qual serve para enviar para o objeto HelperBTC algumas informações vindas do bot do telegram (vulgo 'client' de exemplo). A referência para a postagem está [neste link](https://jonathanscheibel.github.io/seguranca_informacao/2024/04/01/criacao_btc_carteira_fria_telegram_parte_2.html).
 
