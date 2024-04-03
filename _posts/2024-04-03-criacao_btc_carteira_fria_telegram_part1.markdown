@@ -187,8 +187,7 @@ Tornei público o repositório para que você possa visualizar e colaborar.
 
 -  Clonar o repositório e entrar no diretório:
 ```
-git clone https://github.com/jonathanscheibel/cprox.git
-cd cprox
+git clone https://github.com/jonathanscheibel/cprox.git && cd cprox
 ```
 
 -  Criando o ambiente virtual e ativando-o:
