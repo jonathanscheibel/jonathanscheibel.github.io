@@ -150,7 +150,7 @@ Assim que o bitcoin for confirmado por no mínimo três nós, o pagamento é mar
 Existem algumas triggers que podem ser disparadas ao reconhecer o pagamento na blockchain pelo objeto HelperBTC. Aqui vou mostrar a impressão no terminal, mas o output pode ser implementado por demanda.
 
 ![Pagamento detectado. Três ou mais blocos da blockchain o confirmaram.](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/pagamento_confirmado.png)
-Agora você me pergunta, isso não deveria ficar salvo no banco de dados da aplicaçao?
+Pergunta: ”E isso não deveria ficar salvo no banco de dados da aplicaçao?”
 
 > Sim e não. A responsabilidade de guardar estas informações de operações na blockchain fica para a wallet do Electrum, porém a regra de negocio da utilização da classe HelperBTC sim utiliza-se de banco de dados. Veja as configurações da aplicação ao clonar o repositório.
 
@@ -168,16 +168,16 @@ O trabalho para garantir a privacidade sempre foi grande, e continuarei lutando 
 
 ## Bonus - Instação e execução do projeto:
 
-### Tornei público o repositório para que você possa visualizar e colaborar.
+Tornei público o repositório para que você possa visualizar e colaborar.
 
 -  Clonar o repositório e entrar no diretório:
-> ```git clone https://github.com/jonathanscheibel/cprox.git && cd cprox```
+```git clone https://github.com/jonathanscheibel/cprox.git && cd cprox```
 
 -  Criando o ambiente virtual e ativando-o:
-> ```python -m venv venv && source venv/bin/activate```
+```python -m venv venv && source venv/bin/activate```
 
 -  Instalando dependencias:
-> ```pip install -r requirements.txt```
+```pip install -r requirements.txt```
 
 -  Executando:
-> ```sh CProxBot.sh```
+```sh CProxBot.sh```
