@@ -167,6 +167,7 @@ O trabalho para garantir a privacidade sempre foi grande, e continuarei lutando 
 
 ## Instação do projeto:
 ---
+
 ### Tornei público o repositório para que você possa visualizar e colaborar.
 
 #### Clonar o repositório e entrar no diretório:
