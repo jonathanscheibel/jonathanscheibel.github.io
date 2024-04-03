@@ -8,9 +8,9 @@ Atuante na área de TI desde quando me conheço por gente, minha carreira profis
 Nascido e criado no Rio de Janeiro - RJ, hoje resido e trabalho em São João del Rei - MG como programador de sistemas.
 
 Você pode me conhecer profissionalmente muito melhor pelo LinkedIn:
-[https://www.linkedin.com/in/jonathan-scheibel](https://www.linkedin.com/in/jonathan-scheibel)
+[https://www.linkedin.com/in/jonathansmorais](https://www.linkedin.com/in/jonathansmorais/)
 
-Se você achou algum de meus trabalhos interessantes, **seria muito bom saber**, meu email é: [jonathansmorais@gmail.com](mailto:jonathansmorais@gmail.com)
+Se você achou algum de meus trabalhos interessantes, **seria muito bom saber**, meu email é: [jsmorais@protonmail.com](mailto:jsmorais@protonmail.com)
 
 Por fim, eu agradeço muito que tenha tido curiosidade pela visita aqui e espero que este blog seja útil a você de alguma forma.
 
