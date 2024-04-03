@@ -195,7 +195,7 @@ git clone https://github.com/jonathanscheibel/cprox.git && cd cprox
 python -m venv venv && source venv/bin/activate
 ```
 
--  Instalando dependencias:
+-  Instalando dependências:
 ```
 pip install -r requirements.txt
 ```
