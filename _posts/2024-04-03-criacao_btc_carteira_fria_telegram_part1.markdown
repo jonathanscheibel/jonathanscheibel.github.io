@@ -127,7 +127,7 @@ Para melhor organização do projeto em tempo de desenvolvimento, forneci ao pro
 ![Arquivo de configuração do projeto mostrando os valores para variáves de conexão com banco de dados e caminho da wallet do Electrum](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/conf_wallet_sqlite.jpg)
 Ao clonar o projeto, será necessário alterar estas configurações para seu escopo local, obviamente.
 
-### _[4/7] - Executando observação da carteira:_
+### _[4/7] - Executando monitoramento da carteira:_
 Primeiramente irei instanciar o objeto sem a execução do método `request_btc` justamente para que haja um tópico separado e mais organizado para isso. Irei comentar esta instrução.
 com o ambiente virtual criado e ativado, ao executar o helper, graças ao sistema de logging criado, podemos observar no terminal as saídas do script:
 
