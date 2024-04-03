@@ -19,7 +19,7 @@ Hoje muitas pessoas e empresas recebem e enviam seus bitcoins, seja através de 
 
 Sabemos que corretoras trazem diversas vantagens em relação ao trabalho não gasto para as operações crypto, porém nem tudo são flores. As enormes taxas de transmissão geralmente não são negociaveis, ou seja, a flexibilidade de pagamento através do caso em especifico da transação (vulgo prioridade da fila) se torna indefinido, ou seja, impossível. Essa é só uma das muitas maneiras de "roubo" que as corretoras possuem para ludibriar o operador. Mesmo sendo uma transação não prioritária, você e seu cliente paragará por isso. Por conseguinte perderão dinheiro.
 
-Além destas taxas abusivas, temos também quê, a consideração por sua sua privacidade não existe. Para piorar a situação, se você utiliza alguma corretora com empresa aberta no Brasil (CPNJ), é certo dizer que a receita federal pode requisitar seus fundos a qualquer momento. Mesmo com a praticidade em transitar seus investimentos em uma só carteira utilizando redes diversas, saiba que isso é possivel sem que haja a necessidade de pagar uma furtina para isso.
+Além destas taxas abusivas, temos que saber também que; a consideração por sua **nossa privacidade não existe**. Para piorar a situação, se você utiliza alguma corretora com empresa aberta no Brasil (CPNJ), é certo dizer que a receita federal pode requisitar seus fundos a qualquer momento. Mesmo com a praticidade em transitar seus investimentos em uma só carteira utilizando redes diversas, saiba que isso é possivel sem que haja a necessidade de pagar uma furtina para isso.
 
 > Um exemplo: Você pode operar USDT utilizando a rede Bitcoin, utilizando o protocolo de forma correta, inclusive aproveitando da rede lightning. Mas isso é assunto para outra postagem.
 
@@ -27,7 +27,7 @@ Além destas taxas abusivas, temos também quê, a consideração por sua sua pr
 
 Bem como alguns já sabem, não só de fraldes ou operações ilicitas vive o bitcoin. Alias, essa é uma mínima fração de utilização do bitcoin. De acordo com a [chainalysisem](https://go.chainalysis.com/rs/503-FAP-074/images/Crypto_Crime_Report_2023.pdf) 2023 foram somente 11bi. Além de estar diminiundo estes casos com o passar dos anos, vale a pena dizer que esta informação está se disseminando, ajundando no esclarecimento deste mito.
 
-Para operar de forma mais amigável, as operadoras fornecem alguns recursos interessantes (porém caros) para que você utilize das vantagens de mercado em crypto, porém de forma encapsulada, ou seja, você fica a mercê da disposição de funcionalidades que, talvez, seriam de grande valia para seu negocio.  Convenhamos que aprender a utilizar todo o protocolo destas redes crypto precisaria de muito tempo, esforço e dedicação.
+Para operar de forma mais amigável, as operadoras fornecem alguns **recursos interessantes, porém caros**. Para que você utilize das vantagens de mercado em crypto, de forma encapsulada, as corretoras omitem funcionalidades, com isso ficamos a mercê da disponibilidade de funcionalidades que, talvez, seriam de grande valia para nosso negócio. Convenhamos que aprender a utilizar todo o protocolo destas redes crypto precisaria de muito tempo, esforço e dedicação.
 
 > Não. Não estou dizendo ou recomendando que faça isso! Não precisa se tornar um especialista nestes protocolos. Até mesmo por quê, nem mesmo eu sou. Porém conhecer alguns recursos omitidos pelas corretoras tradicionais faz muito bem. E vou mostrar como.
 
@@ -132,7 +132,7 @@ Primeiramente irei instanciar o objeto sem a execução do método `request_btc`
 com o ambiente virtual criado e ativado, ao executar o helper, graças ao sistema de logging criado, podemos observar no terminal as saídas do script:
 
 ![Imagem de logging no monitoramento da carteira bitcoin, mostrando a busca por movimentações ](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/logging_wallet_monitor.png)
-> Disclaimer: nunca rode seus projetos com usuário root, este usuário que estou mostrando é somente um exemplo. Colabore para o projeto com itens uteis como a melhoria do logging, utilização de telemetria e observabilidade. Fique a vontade para isso.
+> Disclaimer: **nunca** execute seus projetos com usuário administrador, este usuário que estou mostrando é somente um exemplo. Colabore para o projeto, com itens uteis, como a melhoria do logging, utilização de telemetria e observabilidade. Fique a vontade para isso.
 
 ### _[5/7] - Criando um endereço de recebmento:_
 Veja abaixo a criação do hash dinamicamente, ou seja, cada transação terá um hash unico, assim aumentando a segurança e privacidade da sua wallet. Com isso, ao integrar com seu negocio você pode isolar os paragentos com nivel de granularidade aperfeiçoado. Além disso, veja que na URI possui alguns valores do protocolo BTC para que a wallet do cliente seja preenchida autometicamente. Veremos isso na aplicação client que faremos utilizando o telegram.
