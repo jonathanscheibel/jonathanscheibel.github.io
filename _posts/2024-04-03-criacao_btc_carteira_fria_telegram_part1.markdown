@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Criação de carteira fria e integração com Telegram #[1/2]"
-date:   2024-04-03 23:50:12
+date:   2024-04-01 23:50:12
 categories: seguranca_informacao
 tags: segurança;vazamento;video;vimeo;aula;
 image: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/capa_btc_telegram.jpg
