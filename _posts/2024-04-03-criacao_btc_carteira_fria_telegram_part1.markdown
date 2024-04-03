@@ -161,7 +161,7 @@ Primeiramente peço desculpas por inúmeros topicos não abordados, porém em mi
 
 Neste primeiro post, mostrei a funcionalidade de uma classe que resolve a comunicação entre a rede bitcoin e como manipular sua carteira localmente. A próxima etapa irei continuar este conteudo trazendo até você uma utilização pratica deste método para aplicação "real", ou seja, um aplicativo Telegram.
 
-Outro detalhe importante que preciso deixar claro é de que, embora este mecanismo de automatização funcione muito bem na prátia, este modelo requer atenção quando se trata de moedas não fiduciarias, ou seja, cryptos por naturesa queretem uma atenção maior, por nao consumirem recursos bancários tradicionais e/ou de governos. Em outras palavras, é importante esboçar um plano de ação para trocos e pagamentos errônios.
+Outro detalhe importante que preciso deixar claro é de que, embora este mecanismo de automatização funcione muito bem na prátia, este modelo requer atenção quando se trata de moedas não fiduciarias, ou seja, cryptos por naturesa queretem uma atenção maior, por nao consumirem recursos bancários tradicionais e/ou de governos. **Em outras palavras, é importante esboçar um plano de ação para trocos e pagamentos errônios.**
 
 O trabalho para garantir a privacidade sempre foi grande, e continuarei lutando para tal. No mais, muito obrigado pelo tempo, e para quaisquer explicações estou a disposição.
 
