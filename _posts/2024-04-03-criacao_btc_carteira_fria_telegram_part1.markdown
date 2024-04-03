@@ -9,18 +9,22 @@ image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_par
 ---
 #	<center>Resolvendo o problema para recebimento automático de Bitcoin: Usando python para manipulação de carteira fria além de integração com Telegram.</center>
 
-- [_Descrevendo o problema:_](#-descrevendo-o-problema)
-  * [_Corretoras:_](#-corretoras)
-  * [Mercado](#-mercado)
-- [_Vamos começar:_](#-vamos-come-ar)
-  * [_[1/7]- Integração com Electrum (vendoring):_](#-1-7-integra-o-com-electrum-vendoring)
-  * [_[2/7] - Mostrando a classe de manipulação:_](#-2-7-mostrando-a-classe-de-manipula-o)
-  * [_[3/7] - Configurações do projeto:_](#-3-7-configura-es-do-projeto)
-  * [_[4/7] - Executando monitoramento da carteira:_](#-4-7-executando-monitoramento-da-carteira)
-  * [_[5/7] - Criando um endereço de recebmento:_](#-5-7-criando-um-endere-o-de-recebmento)
-  * [_[6/7] - Detectando recebimento:_](#-6-7-detectando-recebimento)
-  * [_[7/7] - Conclusão:_](#-7-7-conclus-o)
-- [Bonus - Instação e execução do projeto:](#bonus-insta-o-e-execu-o-do-projeto)
+
+## _Índice:_
+
+  * [_Descrevendo o problema:_](#descrevendo-o-problema)
+    + [_Corretoras:_](#corretoras)
+    + [_Mercado:_](#mercado)
+  * [_Vamos começar:_](#vamos-começar)
+    + [_Integração com electrum:_](#integração-com-electrum)
+    + [_Mostrando a classe de manipulação:_](#mostrando-a-classe-de-manipulação)
+    + [_Configurações do projeto:_](#configurações-do-projeto)
+    + [_Executando monitoramento da carteira:_](#executando-monitoramento-da-carteira)
+    + [_Criando um endereço de recebimento:_](#criando-um-endereço-de-recebimento)
+    + [_Detectando recebimento de bitcoin:_](#detectando-recebimento-de-bitcoin)
+    + [_Conclusão:_](#conclusão)
+  * [Bonus - Instação e execução do projeto:](#bonus-instação-e-execução-do-projeto)
+
 
 ## _Descrevendo o problema:_
 ---
@@ -34,7 +38,7 @@ Além destas taxas abusivas, temos que saber também que; a consideração por s
 
 > Um exemplo: Você pode operar USDT utilizando a rede Bitcoin, utilizando o protocolo de forma correta, inclusive aproveitando da rede lightning. Mas isso é assunto para outra postagem.
 
-### Mercado
+### _Mercado:_
 
 Bem como alguns já sabem, não só de fraldes ou operações ilicitas vive o bitcoin. Alias, essa é uma mínima fração de utilização do bitcoin. De acordo com a [chainalysisem](https://go.chainalysis.com/rs/503-FAP-074/images/Crypto_Crime_Report_2023.pdf) 2023 foram somente 11bi. Além de estar diminiundo estes casos com o passar dos anos, vale a pena dizer que esta informação está se disseminando, ajundando no esclarecimento deste mito.
 
@@ -49,7 +53,7 @@ Em uma segunda parte, irém utilizar desta classe (a resposnsavel por manipular 
 ## _Vamos começar:_
 ---
 
-### _[1/7]- Integração com Electrum (vendoring):_
+### _Integração com electrum:_
 Primeiramente precisamos baixar o Electrum. Atualmente na versao: [Electrum 4.5.4](https://download.electrum.org/4.5.4/Electrum-4.5.4.tar.gz) (4.5.4 na versão semantica). É preciso fazer o download da versao para python e em seguida faça vendoring. Caso voce precise de ajuda para realizar o vendoring, recomendo assistir esta live do [Eduardo Mendes](https://dunossauro.live). A live está no youtube como: [Sua aplicação NÃO está segura](https://www.youtube.com/watch?v=cEkA9PH2oEk) para entender mais sobre esta técnica.
 
 Uma das vantagens para escolha deste projeto é de que o mesmo foi construido com python. Isso nos dá flexibilidade para escalar e trazer novas features para o projeto.
@@ -80,7 +84,7 @@ async def init_wallet(self):
 
 Observe que também existe um método que também é assincrono, para monitoramento de pagamentos recebidos, no qual eu irei abordar no tópico "6 - Detectando recebimento".
 
-### _[2/7] - Mostrando a classe de manipulação:_
+### _Mostrando a classe de manipulação:_
 Para melhor explicação, começarei mostrando a criação da instancia da classe que fará o trabalho de "levantar" o serviço do Electrum, para que ela seja capaz de se conectar a nossa wallet e também criar nosso hash para recebimento de bitcoins. Veja o entrypoint deste módulo que chamei de wallet_btc.py:
 ```
 if __name__ == "__main__":
@@ -132,20 +136,19 @@ class HelperBTC:
 ```
 Acima, estou mostrando a classe construtora, para que, antes de qualquer analise do código, você possa ter uma ideia de quão simples a clenter code hereasse é, em relação aos beneficios que ela carrega.
 
-
-### _[3/7] - Configurações do projeto:_
+### _Configurações do projeto:_
 Para melhor organização do projeto em tempo de desenvolvimento, forneci ao projeto um arquivo de configuração que você pode visualizar abaixo:
 ![Arquivo de configuração do projeto mostrando os valores para variáves de conexão com banco de dados e caminho da wallet do Electrum](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/conf_wallet_sqlite.jpg)
 Ao clonar o projeto, será necessário alterar estas configurações para seu escopo local, obviamente.
 
-### _[4/7] - Executando monitoramento da carteira:_
+### _Executando monitoramento da carteira:_
 Primeiramente irei instanciar o objeto sem a execução do método `request_btc` justamente para que haja um tópico separado e mais organizado para isso. Irei comentar esta instrução.
 com o ambiente virtual criado e ativado, ao executar o helper, graças ao sistema de logging criado, podemos observar no terminal as saídas do script:
 
 ![Imagem de logging no monitoramento da carteira bitcoin, mostrando a busca por movimentações ](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/logging_wallet_monitor.png)
 > Disclaimer: **nunca** execute seus projetos com usuário administrador, este usuário que estou mostrando é somente um exemplo. Colabore para o projeto, com itens uteis, como a melhoria do logging, utilização de telemetria e observabilidade. Fique a vontade para isso.
 
-### _[5/7] - Criando um endereço de recebmento:_
+### _Criando um endereço de recebimento:_
 Veja abaixo a criação do hash dinamicamente, ou seja, cada transação terá um hash unico, assim aumentando a segurança e privacidade da sua wallet. Com isso, ao integrar com seu negocio você pode isolar os paragentos com nivel de granularidade aperfeiçoado. Além disso, veja que na URI possui alguns valores do protocolo BTC para que a wallet do cliente seja preenchida autometicamente. Veremos isso na aplicação client que faremos utilizando o telegram.
 ![Gerado hash para recebimento automático na blockchain](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/hash_para_recebimento.png)
 
@@ -158,7 +161,7 @@ Agora você pode converir a transação na blockchain. É possível visualizar t
 
 Assim que o bitcoin for confirmado por no mínimo três nós, o pagamento é marcado como recebido. Isso é o que veremos no próximo tópico.
 
-### _[6/7] - Detectando recebimento:_
+### _Detectando recebimento de bitcoin:_
 Existem algumas triggers que podem ser disparadas ao reconhecer o pagamento na blockchain pelo objeto HelperBTC. Aqui vou mostrar a impressão no terminal, mas o output pode ser implementado por demanda.
 
 ![Pagamento detectado. Três ou mais blocos da blockchain o confirmaram.](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/pagamento_confirmado.png)
@@ -168,7 +171,7 @@ Pergunta: ”E isso não deveria ficar salvo no banco de dados da aplicaçao?”
 
 A elaboração do mecanismo de detecção de pagamento é simples e não precia de mais detalhes explicatórios.
 
-### _[7/7] - Conclusão:_
+### _Conclusão:_
 Primeiramente peço desculpas por inúmeros topicos não abordados, porém em minha defesa, o trabalho ficaria pouco prático para sua leitura. E também convem explicar que, este assunto é muito amblo e a gama de possibilidades é quase que infinita.
 
 Neste primeiro post, mostrei a funcionalidade de uma classe que resolve a comunicação entre a rede bitcoin e como manipular sua carteira localmente. A próxima etapa irei continuar este conteudo trazendo até você uma utilização pratica deste método para aplicação "real", ou seja, um aplicativo Telegram.
