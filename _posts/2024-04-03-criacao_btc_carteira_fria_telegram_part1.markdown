@@ -196,5 +196,8 @@ Tornei público o repositório para que você possa visualizar e colaborar.
 -  Instalando dependencias:
 ```pip install -r requirements.txt```
 
--  Executando:
+-  Executando via python:
+```python main.py```
+
+-  Executando via script:
 ```sh CProxBot.sh```
