@@ -177,3 +177,6 @@ O trabalho para garantir a privacidade sempre foi grande, e continuarei lutando 
 
 -  Instalando dependencias:
 ```pip install -r requirements.txt```
+
+-  Executando:
+```sh CProxBot.sh```
