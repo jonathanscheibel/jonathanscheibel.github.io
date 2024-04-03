@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Criação de carteira fria e integração com Telegram #[1/2]"
-date:   2024-04-01 23:50:12
+date:   2024-04-03 23:50:12
 categories: seguranca_informacao
 tags: segurança;vazamento;video;vimeo;aula;
 image: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/capa_btc_telegram.jpg
@@ -12,17 +12,17 @@ image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_par
 
 ## _Índice:_
 
-  * [_Descrevendo o problema:_](#descrevendo-o-problema)
-    + [_Corretoras:_](#corretoras)
-    + [_Mercado:_](#mercado)
-  * [_Vamos começar:_](#vamos-começar)
-    + [_Integração com electrum:_](#integração-com-electrum)
+  * [_Descrevendo o problema_](#descrevendo-o-problema)
+    + [_Corretoras_](#corretoras)
+    + [_Mercado_](#mercado)
+  * [_Vamos começar_](#vamos-começar)
+    + [_Integração com electrum_](#integração-com-electrum)
     + [_Mostrando a classe de manipulação_](#mostrando-a-classe-de-manipulação)
     + [_Configurações do projeto_](#configurações-do-projeto)
     + [_Executando monitoramento da carteira_](#executando-monitoramento-da-carteira)
     + [_Criando um endereço de recebimento_](#criando-um-endereço-de-recebimento)
     + [_Detectando recebimento de bitcoin_](#detectando-recebimento-de-bitcoin)
-  * [_Conclusão:_](#conclusão)
+  * [_Conclusão_](#conclusão)
   * [_Bonus - Instação e execução do projeto_](#bonus---instação-e-execução-do-projeto)
 
 
