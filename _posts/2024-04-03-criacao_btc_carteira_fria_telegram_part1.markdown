@@ -208,3 +208,4 @@ python main.py
 -  Executando via script:
 ```
 sh CProxBot.sh
+```
