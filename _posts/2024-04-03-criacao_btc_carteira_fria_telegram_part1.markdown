@@ -17,13 +17,13 @@ image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_par
     + [_Mercado:_](#mercado)
   * [_Vamos começar:_](#vamos-começar)
     + [_Integração com electrum:_](#integração-com-electrum)
-    + [_Mostrando a classe de manipulação:_](#mostrando-a-classe-de-manipulação)
-    + [_Configurações do projeto:_](#configurações-do-projeto)
-    + [_Executando monitoramento da carteira:_](#executando-monitoramento-da-carteira)
-    + [_Criando um endereço de recebimento:_](#criando-um-endereço-de-recebimento)
-    + [_Detectando recebimento de bitcoin:_](#detectando-recebimento-de-bitcoin)
-    + [_Conclusão:_](#conclusão)
-  * [Bonus - Instação e execução do projeto:](#bonus-instação-e-execução-do-projeto)
+    + [_Mostrando a classe de manipulação_](#mostrando-a-classe-de-manipulação)
+    + [_Configurações do projeto_](#configurações-do-projeto)
+    + [_Executando monitoramento da carteira_](#executando-monitoramento-da-carteira)
+    + [_Criando um endereço de recebimento_](#criando-um-endereço-de-recebimento)
+    + [_Detectando recebimento de bitcoin_](#detectando-recebimento-de-bitcoin)
+  * [_Conclusão:_](#conclusão)
+  * [_Bonus - Instação e execução do projeto_](#bonus---instação-e-execução-do-projeto)
 
 
 ## _Descrevendo o problema:_
@@ -171,7 +171,7 @@ Pergunta: ”E isso não deveria ficar salvo no banco de dados da aplicaçao?”
 
 A elaboração do mecanismo de detecção de pagamento é simples e não precia de mais detalhes explicatórios.
 
-### _Conclusão:_
+## _Conclusão:_
 Primeiramente peço desculpas por inúmeros topicos não abordados, porém em minha defesa, o trabalho ficaria pouco prático para sua leitura. E também convem explicar que, este assunto é muito amblo e a gama de possibilidades é quase que infinita.
 
 Neste primeiro post, mostrei a funcionalidade de uma classe que resolve a comunicação entre a rede bitcoin e como manipular sua carteira localmente. A próxima etapa irei continuar este conteudo trazendo até você uma utilização pratica deste método para aplicação "real", ou seja, um aplicativo Telegram.
@@ -181,7 +181,7 @@ Outro detalhe importante que preciso deixar claro é de que, embora este mecanis
 O trabalho para garantir a privacidade sempre foi grande, e continuarei lutando para tal. No mais, muito obrigado pelo tempo, e para quaisquer explicações estou a disposição.
 
 
-## Bonus - Instação e execução do projeto:
+## _Bonus - Instação e execução do projeto:_
 
 Tornei público o repositório para que você possa visualizar e colaborar.
 
