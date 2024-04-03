@@ -154,7 +154,7 @@ Veja abaixo a criação do hash dinamicamente, ou seja, cada transação terá u
 ![Realizando o pagamento via URI](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/realizando_pagamento.gif)
 
 Agora você pode converir a transação na blockchain. É possível visualizar todos os dados desta operação, veja:
-[https://blockchain.com/explorer/transactions/btc/3d07...](https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479)
+[https://blockchain.com/explorer/tra...](https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479)
 
 Assim que o bitcoin for confirmado por no mínimo três nós, o pagamento é marcado como recebido. Isso é o que veremos no próximo tópico.
 
