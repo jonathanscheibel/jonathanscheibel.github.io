@@ -172,17 +172,13 @@ O trabalho para garantir a privacidade sempre foi grande, e continuarei lutando 
 
 
 -  Clonar o repositório e entrar no diretório:
-
-```git clone https://github.com/jonathanscheibel/cprox.git && cd cprox```
+    ```git clone https://github.com/jonathanscheibel/cprox.git && cd cprox```
 
 -  Criando o ambiente virtual e ativando-o:
-
-```python -m venv venv && source venv/bin/activate```
+    ```python -m venv venv && source venv/bin/activate```
 
 -  Instalando dependencias:
-
-```pip install -r requirements.txt```
+    ```pip install -r requirements.txt```
 
 -  Executando:
-
-```sh CProxBot.sh```
+    ```sh CProxBot.sh```
