@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Criação de carteira fria de Bitcoin e integração com telegram #(1/2)"
+title:  "Criação de carteira fria e integração com Telegram #[1/2]"
 date:   2024-04-01 23:50:12
 categories: seguranca_informacao
 tags: segurança;vazamento;video;vimeo;aula;
