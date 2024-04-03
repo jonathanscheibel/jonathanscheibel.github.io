@@ -9,10 +9,9 @@ image2: /assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_par
 ---
 #	<center>Resolvendo o problema para recebimento automático de Bitcoin: Usando python para manipulação de carteira fria além de integração com Telegram.</center>
 
->
 - [_Descrevendo o problema:_](#-descrevendo-o-problema)
   * [_Corretoras:_](#-corretoras)
-  * [_Mercado:_](#-mercado)
+  * [Mercado](#-mercado)
 - [_Vamos começar:_](#-vamos-come-ar)
   * [_[1/7]- Integração com Electrum (vendoring):_](#-1-7-integra-o-com-electrum-vendoring)
   * [_[2/7] - Mostrando a classe de manipulação:_](#-2-7-mostrando-a-classe-de-manipula-o)
@@ -35,7 +34,7 @@ Além destas taxas abusivas, temos que saber também que; a consideração por s
 
 > Um exemplo: Você pode operar USDT utilizando a rede Bitcoin, utilizando o protocolo de forma correta, inclusive aproveitando da rede lightning. Mas isso é assunto para outra postagem.
 
-### _Mercado:_
+### Mercado
 
 Bem como alguns já sabem, não só de fraldes ou operações ilicitas vive o bitcoin. Alias, essa é uma mínima fração de utilização do bitcoin. De acordo com a [chainalysisem](https://go.chainalysis.com/rs/503-FAP-074/images/Crypto_Crime_Report_2023.pdf) 2023 foram somente 11bi. Além de estar diminiundo estes casos com o passar dos anos, vale a pena dizer que esta informação está se disseminando, ajundando no esclarecimento deste mito.
 
@@ -154,7 +153,8 @@ Veja abaixo a criação do hash dinamicamente, ou seja, cada transação terá u
 
 ![Realizando o pagamento via URI](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/realizando_pagamento.gif)
 
-Transação na blockchain:[https://blockchain.com/explorer/transactions/btc/3d07...](https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479)
+Agora você pode converir a transação na blockchain. É possível visualizar todos os dados desta operação, veja:
+[https://blockchain.com/explorer/transactions/btc/3d07...](https://www.blockchain.com/explorer/transactions/btc/3d07b2b3009b3b1521cd1a5072033aaf56563b14532d60cbb03e058002be3479)
 
 Assim que o bitcoin for confirmado por no mínimo três nós, o pagamento é marcado como recebido. Isso é o que veremos no próximo tópico.
 
