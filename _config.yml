@@ -40,6 +40,8 @@ social:
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
+#    'https://twitter.com/share?text=Criação+de+carteira+fria+e+integração+com+Telegram+%23[1%2F2]&url=https://jonathanscheibel.github.iohttps://jonathanscheibel.github.io/bitcoin/2024/04/01/criacao_btc_carteira_fria_telegram_part1'
+
 
 #  - icon: facebook
 #    url: https://www.facebook.com/ScheibelJonathan
@@ -59,10 +61,11 @@ social:
   - icon: linkedin
     url: https://www.linkedin.com/in/jonathansmorais
     desc: Qualificações gerais no LinkedIn
-    share_url:
-    share_title:
-    share_link:
-    
+    share_url: ?shareArticle=
+    share_title: ?title=
+    share_link: "&amp;mini=true&url="
+#    'https://www.linkedin.com/shareArticle/?mini=true&url=https%3A%2F%2Fwww.tiagogouvea.com.br%2Fprofissional%2Fcomputador-programar-escolher%2F&title=Computador%20para%20programar.%20Qual%20o%20melhor%20e%20como%20escolher%3F%20-%20Tiago%20Gouvêa&summary=&source=AddToAny'
+
 #  - icon:	google-plus
 #    url:	https://google.com/???
 #    desc:	Add me on google+
