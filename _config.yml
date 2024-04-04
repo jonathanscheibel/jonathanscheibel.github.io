@@ -61,11 +61,11 @@ social:
   - icon: linkedin
     url: https://www.linkedin.com/in/jonathansmorais
     desc: Qualificações gerais no LinkedIn
-    share_url: https://www.linkedin.com/shareArticle/
+    share_url: https://www.linkedin.com/shareArticle
     share_title: ?title=
     share_link: "&amp;mini=true&url="
 #    'https://www.linkedin.com/shareArticle/?mini=true&url=https%3A%2F%2Fwww.tiagogouvea.com.br%2Fprofissional%2Fcomputador-programar-escolher%2F&title=Computador%20para%20programar.%20Qual%20o%20melhor%20e%20como%20escolher%3F%20-%20Tiago%20Gouvêa&summary=&source=AddToAny'
-
+#    'https://www.linkedin.com/shareArticle?mini=true&url=https://blog.betrybe.com/tecnologia/aprenda-tudo-sobre-programacao/'
 #  - icon:	google-plus
 #    url:	https://google.com/???
 #    desc:	Add me on google+
