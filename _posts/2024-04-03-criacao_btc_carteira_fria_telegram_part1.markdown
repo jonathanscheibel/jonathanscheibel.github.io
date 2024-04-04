@@ -51,7 +51,7 @@ Irei dividir essa postagem em duas partes, Nesta primeira parte irei mostrar uma
 Em uma segunda parte, irei utilizar desta classe (a responsável por manipular a carteira) em um bot para o Telegram.  Chamarei de client, pois pode ser qualquer modelo ou protótipo e/ou frontend de iteração com seu cliente final.  Esta camada que irei abordar a seguir se dá por exemplificar as vantagens de utilização em automatizações e como fazê-la.
 
 
-![Imagem gerada por inteligencia artificial somente como ilustração](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/inter_capa_btc_telegram_tamanho_real.jpg)
+![Imagem gerada por inteligencia artificial somente como ilustração](https://jonathanscheibel.github.io/assets/article_images/2024-04-03-criacao_btc_carteira_fria_telegram_part1/inter_capa_btc_telegram_tamanho_real.jpeg)
 
 
 ## _Vamos começar:_
