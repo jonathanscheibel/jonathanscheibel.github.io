@@ -6,7 +6,7 @@ permalink: /sobre
 
 Atuante e muito curioso em computadores desde quando me conheço por gente, minha carreira não poderia ser diferente.
 
-Nascido e criado no Rio de Janeiro - RJ, vindo de comunidade e sonhando com belos futuros, eu já sabia muito bem do  que eu mais gostava de fazer: Usar computadores.
+Nascido e criado no Rio de Janeiro - RJ, vindo de comunidade e sonhando com belos futuros, eu já sabia muito bem do  que eu mais gostava de fazer: Usar e entender como os computadores funcionam.
 
 Iniciei minha trajetória aprendendo programação aos 16 anos. Sem cursinho e/ou professor - e muito menos inteligência artificial - comecei a codar.  Aprendi a programar e conheci conceitos relevantes na construção de grandes sistemas.
 
